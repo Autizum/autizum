@@ -1,0 +1,55 @@
+{{ define "main" }}
+<!-- page title area start -->
+<section
+  class="page__title p-relative pt-200 pb-200"
+  data-background="/assets/img/page-title/page-title-4.jpg"
+>
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-12 col-lg-12 col-md-12">
+        <div class="page__title-inner text-center">
+          <div class="page__title-breadcrumb">
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                  <a
+                    href=""
+                    >Home</a
+                  >
+                </li>
+                <li class="breadcrumb-item active" aria-current="page">
+                  Services
+                </li>
+              </ol>
+            </nav>
+          </div>
+          <h1>Our Services</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- page title area end -->
+
+<!-- services area start -->
+<section class="services__area-2 pt-110 pb-90">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+        <div class="section__title mb-70 text-center">
+          <h1>Professional Psychology Therapy Service You Can Choose</h1>
+          <div class="section__icon mb-10">
+            <span
+              class="section__sub-title section__sub-title-2 section__sub-title-3 section__sub-title-4"
+              >affordable Services</span
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">{{partial "services" .}}</div>
+  </div>
+</section>
+<!-- services area end -->
+
+{{ end }}

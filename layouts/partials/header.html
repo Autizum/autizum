@@ -1,0 +1,119 @@
+<!-- header area start -->
+<header>
+  <div class="header-area">
+    <div class="header__top header__top-3 d-none d-md-block box-105">
+      <div class="container-fluid">
+        <div class="row align-items-center">
+          <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-8">
+            <div class="header__top-left">
+              <div class="">
+                <a href="{{.Site.Params.website}}"
+                  ><img
+                    src="{{.Site.Data.header.logo_url}}"
+                    alt="{{.Site.Data.header.logo_alt}}"
+                    style="width: 100%"
+                /></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-10 col-lg-9 col-md-8 col-sm-6 col-4">
+            <div class="header__top-right d-flex justify-content-end">
+              <div class="header__info d-none d-lg-flex">
+                <div class="header__info-icon">
+                  <span class="icon flaticon-history"></span>
+                </div>
+                <div class="header__info-text">
+                  <span>{{.Site.Data.header.working_title}}</span>
+                  <span>{{.Site.Data.header.working_text}}</span>
+                </div>
+              </div>
+              <div class="header__info d-none d-md-flex">
+                <div class="header__info-icon">
+                  <span class="icon fa fa-phone"></span>
+                </div>
+                <div class="header__info-text">
+                  <span>{{.Site.Data.header.call_text}}</span>
+                  <span>{{.Site.Params.mobile}}</span>
+                </div>
+              </div>
+              <div class="header__info d-none d-md-flex">
+                <div class="header__info-icon">
+                  <span class="icon flaticon-envelope"></span>
+                </div>
+                <div class="header__info-text">
+                  <span>{{.Site.Data.header.email_text}}</span>
+                  <span
+                    ><a href="{{.Site.Params.website}}" class="__cf_email__"
+                      >{{.Site.Params.email}}</a
+                    ></span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="header-sticky" class="header__bottom-3 box-105">
+      <div class="container-fluid">
+        <div class="row align-items-center">
+          <div class="col-xl-7 col-lg-8 col-md-10 col-sm-6 col-8">
+            <div class="main-menu main-menu-2 main-menu-3 d-none d-md-block">
+              <nav>
+                <ul>
+                  {{ range .Site.Data.header.nav }}
+                  <li class="{{ if .dropdown }}has-dropdown{{ end }}">
+                    <a href="{{ .url }}">{{ .name }}</a>
+                    {{ if .dropdown }}
+                      <ul class="submenu">
+                        {{ range .dropdown }}
+                          <li><a href="{{ .url }}">{{ .name }}</a></li>
+                        {{ end }}
+                      </ul>
+                    {{ end }}
+                  </li>
+
+                  {{end}}
+                </ul>
+              </nav>
+            </div>
+            <div class="d-md-none">
+              <a href="/"
+                ><img src="{{.Site.Data.header.logo_url}}"
+                alt="{{.Site.Data.header.logo_text}}"  style="width:100%"></a
+              >
+            </div>
+          </div>
+          <div class="col-xl-5 col-lg-4 col-md-2 col-sm-6 col-4">
+            <div
+              class="header__bottom-3-right d-flex justify-content-end align-items-center"
+            >
+              <div class="social social-border d-none d-xl-block">
+                <ul target = >
+                  {{ range .Site.Data.header.social_media }}
+                  <li>
+                    <a href="{{.url}}" target="_blank"><i class="{{.name}}"></i></a>
+                  </li>
+                  {{ end }}
+                </ul>
+              </div>
+              <div class="header__btn ml-35 d-none d-lg-block">
+                <a href="https://cal.com/florina-david-colar/15min" target="_blank" class="s-btn s-btn__square"
+                  >{{ .Site.Data.header.appointment }}</a
+                >
+              </div>
+              <div
+                class="header-bar header-bar-2 info-toggle-btn f-right d-md-block d-lg-none"
+              >
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- header area start -->

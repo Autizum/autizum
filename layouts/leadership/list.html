@@ -1,0 +1,129 @@
+{{define "main" }}
+
+<main>
+  <!-- page title area start -->
+  <section
+    class="page__title p-relative pt-200 pb-200"
+    data-background="/assets/img/page-title/page-title-2.jpg"
+  >
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-12 col-lg-12 col-md-12">
+          <div class="page__title-inner text-center">
+            <div class="page__title-breadcrumb">
+              <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="/">Home</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">
+                    About me
+                  </li>
+                </ol>
+              </nav>
+              <h1>Autizum</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- page title area end -->
+
+  <!-- sychologist area start -->
+  <section class="sychologist__area pt-120 p-relative">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-5 col-lg-5">
+          <div class="ml-35">
+            <a href="https://cal.com/florina-david-colar/15min" target="_blank" class="s-btn s-btn__square-2"
+                >{{ .Site.Data.header.appointment }}</a
+              >
+          </div>
+          <div class="sychologist__person sychologist__person-2">
+            <img src="{{.Params.bioArea.image}}" alt="Florina David Colar" />
+          </div>
+        </div>
+        <div class="col-xl-7 col-lg-2">
+          <div
+            class="sychologist__content sychologist__content-2 p-relative"
+          >
+            <h1>{{.Params.bioArea.name}}</h1>
+            <h3 class="h31">{{.Params.bioArea.occupation}}</h3>
+            <h4 class="h31">{{.Params.bioArea.title}}</h4>
+            <p class="pt-20">{{.Params.bioArea.aboutYou}}</p>
+            <p>{{.Params.bioArea.aboutYou1}}</p>
+            <p>{{.Params.bioArea.aboutYou2}}</p>
+            <p>{{.Params.bioArea.aboutYou3}}</p>
+          </div>
+        </div>
+        <div class="container-fluid">
+          <div class="row p-5">
+            <div class="col-12 text-left">
+              <p class="mb-2">{{ .Params.bioArea.aboutYou4 }}</p>
+              <p class="mb-2">{{ .Params.bioArea.aboutYou5 }}</p>
+              <p class="mb-2">{{ .Params.bioArea.aboutYou6 }}</p>
+              <p class="mb-0">{{ .Params.bioArea.aboutYou7 }}</p>
+            </div>
+          </div>
+        </div>
+        
+        <div
+          class="sychologist__content sychologist__content-2 pt-10 pb-115 p-relative pl-65"
+        >
+          <div class="sychologist__signature d-block d-sm-flex">
+            <div class="sychologist__btn mb-30 mr-30">
+              <a href="https://cal.com/florina-david-colar/15min" target="_blank" class="s-btn s-btn__square-2"
+                  >{{ .Site.Data.header.appointment }}</a
+                >
+            </div>
+            <div class="sychologist__call d-flex">
+              <span class="icon fa fa-phone"></span>
+              <!-- <span class="icon flaticon-phone-call"></span> -->
+              <h3 class="pl-10">{{.Site.Params.mobile}}</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- sychologist area end -->
+
+  <!-- services area start -->
+  <section class="services__area-2 pb-90 pink-soft-bg pt-105 mt-105 p-relative">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+          <div class="section__title mb-70 pl-50 pr-50 text-center">
+            <h1>My Expertise Area</h1>
+            <div class="section__icon mb-10">
+              <span
+                class="section__sub-title section__sub-title-2 section__sub-title-3 section__sub-title-4"
+                >popular services</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        {{ partial "services" . }}
+        <div class="row">
+          {{ range .Pages }} {{ .Render "services" }} {{ end }}
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- services area end -->
+
+  <!-- why area start -->
+  {{partial "whyArea" .}}
+  <!-- why area end -->
+
+  <!-- counter area start -->
+  <!-- {{ partial "counter" . }} -->
+  <!-- counter area end -->
+
+  <!-- testimonial area start -->
+  <!-- {{ partial "testimonial" . }} -->
+  <!-- testimonial area end -->
+</main>
+
+{{ end }}

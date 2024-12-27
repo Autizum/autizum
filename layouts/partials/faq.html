@@ -1,0 +1,40 @@
+<!-- faq area start -->
+<section class="faq__area p-relative box-105 pink-soft-bg pt-110 pb-120">
+  <div class="faq__bg p-absolute" data-background="/assets/img/faq/faq-img.jpg"></div>
+  <div class="container-fluid">
+      <div class="row">
+          <div class="col-xl-6 col-lg-12">
+              <div class="faq__wrapper pr-140">
+                  <div class="section__title mb-20">
+                      <div class="section__icon mb-10">
+                          <span class="section__sub-title section__sub-title-2">Frequently Asked Questions</span>
+                      </div>
+                      <h1 class="mb-100">Company Information & About Us</h1>
+                  </div>
+                  <div class="faq__inner mr-30">
+                      <div id="accordion">
+                        {{ range .Site.Data.faq.questions }}
+                          <div class="card">
+                              <div class="card-header white-bg" id="{{.id}}">
+                              <h5 class="mb-0">
+                                  <button class="faq-accordion-btn collapsed" data-toggle="collapse" data-target="#collapseOne-{{.id}}" aria-expanded="false" aria-controls="collapseOne-{{.id}}">
+                                  {{.question}}
+                                  </button>
+                              </h5>
+                              </div>
+                          
+                              <div id="collapseOne-{{.id}}" class="collapse " aria-labelledby="headingOne" data-parent="#accordion">
+                              <div class="card-body">
+                                  {{.answer}}
+                              </div>
+                              </div>
+                          </div>
+                        {{ end }}
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<!-- faq area end -->

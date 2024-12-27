@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  {{partial "head.html" .}}
+  <body>
+    {{partial "preloader.html" .}} {{partial "header.html" .}} {{partial
+    "info_area.html" .}}
+    <main>
+      <div id="content">{{ block "main" . }}{{ end }}</div>
+    </main>
+    {{partial "footer.html" .}}
+    <!-- scroll up area start -->
+    <div class="scroll-up" id="scroll" style="display: none">
+      <a href="javascript:void(0);"><i class="fa fa-angle-up"></i></a>
+    </div>
+    <!-- scroll up area end -->
+
+    <script src="/assets/js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="/assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="/assets/js/vendor/waypoints.min.js"></script>
+    <script src="/assets/js/popper.min.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
+    <script src="/assets/js/metisMenu.min.js"></script>
+    <script src="/assets/js/slick.min.js"></script>
+    <script src="/assets/js/jquery.fancybox.min.js"></script>
+    <script src="/assets/js/isotope.pkgd.min.js"></script>
+    <script src="/assets/js/owl.carousel.min.js"></script>
+    <script src="/assets/js/ajax-form.js"></script>
+    <script src="/assets/js/jquery.nice-select.min.js"></script>
+    <script src="/assets/js/wow.min.js"></script>
+    <script src="/assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="/assets/js/jquery.counterup.min.js"></script>
+    <script src="/assets/js/main.js"></script>
+    <script
+      src="https://kit.fontawesome.com/853ed08db5.js"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+          const consentKey = "cookieConsent";
+          const optionalConsentKey = "optionalCookies";
+  
+          // Show modal if no consent is stored
+          if (!localStorage.getItem(consentKey)) {
+              const cookieModal = new bootstrap.Modal(document.getElementById("cookieConsentModal"));
+              cookieModal.show();
+          }
+  
+          // Handle Accept Selected button
+          document.getElementById("acceptCookies").addEventListener("click", function () {
+              localStorage.setItem(consentKey, "true");
+              const optionalCookiesEnabled = document.getElementById("optionalCookies").checked;
+              localStorage.setItem(optionalConsentKey, optionalCookiesEnabled ? "true" : "false");
+  
+              const cookieModal = bootstrap.Modal.getInstance(document.getElementById("cookieConsentModal"));
+              cookieModal.hide();
+          });
+  
+          // Handle Reject button
+          document.getElementById("rejectCookies").addEventListener("click", function () {
+              localStorage.setItem(consentKey, "true"); // Consent given for necessary cookies only
+              localStorage.setItem(optionalConsentKey, "false");
+  
+              const cookieModal = bootstrap.Modal.getInstance(document.getElementById("cookieConsentModal"));
+              cookieModal.hide();
+          });
+      });
+    </script>
+    
+  </body>
+</html>

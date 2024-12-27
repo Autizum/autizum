@@ -1,0 +1,7 @@
+{{ $servicesSection := .Site.GetPage "section" "services" }}
+{{ $children := $servicesSection.Pages }}
+{{ range $children }}
+  {{ if not .IsSection }}
+    {{ .Render "services" }}
+  {{ end }}
+{{ end }}

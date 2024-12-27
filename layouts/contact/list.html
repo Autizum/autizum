@@ -1,0 +1,143 @@
+{{define "main" }}
+<!-- page title area start -->
+<section class="page__title p-relative pt-200 pb-200" data-background="/assets/img/page-title/page-title-7.jpg">
+  <div class="container">
+      <div class="row">
+          <div class="col-xl-12 col-lg-12 col-md-12">
+              <div class="page__title-inner text-center">
+                  <div class="page__title-breadcrumb">                                 
+                          <nav aria-label="breadcrumb">
+                          <ol class="breadcrumb">
+                              <li class="breadcrumb-item"><a href="/">Home</a></li>
+                              <li class="breadcrumb-item active" aria-current="page">Contact</li>
+                          </ol>
+                          </nav>
+                  </div>
+                  <h1></h1>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<!-- page title area end -->
+  
+<!-- contact area start -->
+<section class="contact__area pt-120 pb-120">
+  <div class="container">
+      <div class="row">
+          <div class="col-xl-6 offset-xl-1 col-lg-6 offset-lg-1">
+              <div class="contact__form">
+                  <form id="contact-form" action="" method="POST">
+                      <div class="row">
+                          <div class="col-xl-6">
+                              <input type="hidden" name="subject" id= "subject" value="New Intake Request">
+                              <input name="name" class="contact__input contact__input-3 contact__input-4" type="text" placeholder="Your Name">
+                          </div>
+                          <div class="col-xl-6">
+                              <input name="email" class="contact__input contact__input-3 contact__input-4" type="email" placeholder="E-mail Address">
+                          </div>
+                      </div>
+                      <div class="row">
+                          <div class="col-xl-6">
+                              <input name="phone" class="contact__input contact__input-3 contact__input-4" type="text" placeholder="Phone Number">
+                          </div>
+                          <div class="col-xl-6">
+                              <select class="contact__input contact__input-3 contact__input-4" name="service">
+                                  <option value="Choose a service">Choose a service</option>
+                                  <option value="ABA therapy">ABA therapy</option>
+                                  <option value="Autizum for 504 & Parental Rights">Autizum for 504 & Parental Rights</option>
+                                  <option value="Parent Counselling">Parent Counselling</option>
+                                  <option value="Special Education">Special Education</option>
+                                  <option value="Speech Development / Verbal Behavior Development">Speech Development / <br> Verbal Behavior Development</option>
+                                  <option value="Others">Others</option>
+                              </select>
+                          </div>
+                      </div>
+                      <div class="row">
+                          <div class="col-xl-12">
+                              <textarea name="message" class="contact__input contact__input-3 contact__input-4 txt-area " cols="30" rows="10" placeholder="Write Message"></textarea>
+                          </div>
+                      </div>
+                      <div class="row">
+                          <div class="col-xl-12">
+                              <button class="s-btn s-btn__square" type="submit">submit message</button>
+                          </div>
+                      </div>
+                  </form>
+              </div>
+          </div>
+          <div class="col-xl-5 col-lg-5">
+            <div class="contact__info-head mb-40">
+                <div class="section__title mb-25">
+                    <div class="section__icon mb-10">
+                        <span class="section__sub-title section__sub-title-2 section__sub-title-3">Contact info</span>
+                    </div>
+                    <h1>Don’t Hesitate To Share Your Concern, Contact us</h1>
+                </div>
+                <p>{{.Params.contactArea.description}} </p>
+            </div>
+        </div>
+      </div>
+  </div>
+</section>
+<!-- contact area end -->
+
+<!-- contact info area start -->
+<section class="contact__info p-relative">
+  <div class="container">
+      <div class="contact__info-inner green-bg-2">
+          <div class="row">
+              <div class="col-xl-4 col-lg-4 col-md-6">
+                  <div class="contact__info-item text-center text-sm-left d-sm-flex justify-content-lg-center mb-30">
+                      <div class="contact__icon mr-20">
+                          <span class="icon flaticon-house"></span>
+                      </div>
+                      <div class="contact__info-content">
+                          <h3>Our Address</h3>
+                          <span>{{.Site.Params.address}}</span>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-xl-4 col-lg-4 col-md-6">
+                  <div class="contact__info-item text-center text-sm-left d-sm-flex justify-content-lg-center mb-30">
+                      <div class="contact__icon mr-20">
+                          <span class="icon flaticon-support-1"></span>
+                      </div>
+                      <div class="contact__info-content">
+                          <h3>Phone Number</h3>
+                          <span>{{.Site.Params.mobile}} </span>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-xl-4 col-lg-4 col-md-6">
+                  <div class="contact__info-item text-center text-sm-left d-sm-flex justify-content-lg-center mb-30">
+                      <div class="contact__icon mr-20">
+                          <span class="icon flaticon-email"></span>
+                      </div>
+                      <div class="contact__info-content">
+                          <h3>Email Support</h3>
+                          <span><a href="/" class="__cf_email__">{{.Site.Params.email}}</a></span>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<!-- contact info area end -->
+
+<!-- contact map area start -->
+<section class="contact__map-area mt--120">
+  <div class="container-fluid p-0">
+      <div class="row no-gutters">
+          <div class="col-xl-12">
+              <div class="contact__map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.577525416979!2d-78.86741532420974!3d35.7366073725695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89ac92c8e45153bd%3A0x57d9da0a3ebbb73e!2s5448%20Apex%20Peakway%20%23300%2C%20Apex%2C%20NC%2027502%2C%20USA!5e0!3m2!1sen!2sin!4v1729753354036!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<!-- contact map area end -->
+
+{{ end }}

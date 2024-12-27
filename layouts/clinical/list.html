@@ -1,0 +1,100 @@
+{{ define "main" }}
+
+<!-- team area start -->
+<section class="team__details pb-50">
+  <div class="container">
+    <div class="section__title mb-70 text-center">
+      <h1>Clinical Team</h1>
+    </div>
+    {{ range $index, $person := .Params.people }}
+      <div class="row mb-50">
+        <div class="col-xl-3 col-lg-3 sidebar_member d-flex">
+          <div class="team__sidebar">
+            <div class="team__item">
+              <div class="team__thumb w-img fix p-relative">
+                <img class="transition-3" src="{{$person.image}}" alt="team-1" />
+              </div>
+              <div class="team__content text-center white-bg transition-3">
+                <div class="team__name">
+                  <h3>{{$person.name}}</h3>
+                  <span>{{$person.caption}}</span>
+                </div>
+                <div class="team__info">
+                  <div class="team__social-2 social transition-3">
+                    <ul>
+                      <li>
+                        <a target="_blank" href="{{$person.linkedin}}"><i class="fab fa-linkedin-in"></i></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-9 col-lg-9">
+          <div class="team__details-wrapper" id="{{ add $index 1 }}-name">
+            <div class="team__details-item mb-30">
+              <div class="team__details-title mb-20">
+                <h2>{{$person.name}}</h2>
+              </div>
+              <div class="team__details-content">
+                <div class="team__biography" id="{{ add $index 1 }}-content" style="max-height: 300px; overflow: hidden;">
+                  {{ $person.description | safeHTML }}
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="read-more-btn" id="{{ add $index 1 }}-btn" onclick="toggleReadMore('{{ add $index 1 }}-name', '{{ add $index 1 }}-btn')">Read More</button>
+        </div>
+      </div>
+    {{ end }}
+  </div>
+</section>
+<!-- team area end -->
+<!-- style css -->
+ <style>
+  #detailsWrapper {
+  max-height: 400px;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+#detailsWrapper.expanded {
+  max-height: 1000px; /* Adjust this to accommodate more content or set to 'none' */
+}
+
+.read-more-btn {
+  display: block;
+  margin: 20px auto;
+  background-color: #005046;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+ </style>
+ <!-- style css end -->
+<!-- JavaScript -->
+<script>
+  function toggleReadMore(detailsWrapperId, readMoreBtnId) {
+    const readMoreBtn = document.getElementById(readMoreBtnId);
+    const biographyContent = $(`#${detailsWrapperId.split('-')[0]}-content`)[0];
+
+    // Check if the content is already expanded
+    if (biographyContent.style.maxHeight === "300px") {
+      biographyContent.style.maxHeight = "none"; 
+      biographyContent.style.overflow = "visible"; 
+      readMoreBtn.textContent = 'Read Less'; 
+    } else {
+      biographyContent.style.maxHeight = "300px"; 
+      biographyContent.style.overflow = "hidden"; 
+      readMoreBtn.textContent = 'Read More'; 
+    }
+  }
+</script>
+
+{{ end }}

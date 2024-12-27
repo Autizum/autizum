@@ -1,0 +1,53 @@
+logo_alt: "Autizum"
+logo_url: "/assets/img/logo/logo.png"
+working_title: "Working days"
+working_text: "Monday to Friday"
+call_text: "Call us:"
+email_text: "Email us:"
+appointment: "Book an appointment"
+nav:
+  - name: "Home"
+    url: "/"
+
+  - name: "About Us"
+    url: "/about"
+
+ 
+
+  - name: "Team"
+    # url: "/clinical"
+    dropdown:
+      - name: "Leadership"
+        url: "/leadership"
+      - name: "Clinical Team"
+        url: "/clinical"
+
+  - name: "Services"
+    url: "/services"
+    
+    dropdown:
+      - name: "ABA Therapy"
+        url: "/services/aba-therapy/"
+      - name: "Autizum for 504 & Parental Rights"
+        url: "/services/iep-consulting-504-and-parental-rights/"
+      - name: "Parent Counselling"
+        url: "/services/parent-counselling/"
+      # - name: "Psychological Testing"
+      #   url: "/services/pyschological-testing/"
+      - name: "Special Education"
+        url: "/services/special-education/"
+      - name: "Speech Development / Verbal Behavior Development"
+        url: "/services/speech-development-verbal-behaviour-development/"
+
+  - name: "Contact"
+    url: "/contact"
+
+social_media:
+  # - name: "fab fa-facebook-f"
+  #   url: "https://www.facebook.com/"
+
+  # - name: "fab fa-twitter"
+  #   url: "https://twitter.com/"
+
+  - name: "fab fa-linkedin-in"
+    url: "https://www.linkedin.com/in/florina-david-colar-bcba-lba-ph-d-student-9994a728"
