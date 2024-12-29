@@ -1,0 +1,223 @@
+media: public/assets/img
+content:
+  - name: home
+    label: Home page
+    path: content/_index.md
+    type: file
+    fields:
+      - label: "Slider 1"
+        name: "slider1"
+        type: "object"
+        fields:
+          - { label: "Span", name: "span", type: "string" }
+          - { label: "Text", name: "text", type: "string" }
+          - { label: "Image", name: "image", type: "string" }
+          - { label: "Youtube", name: "embed_youtube", type: "string" }
+
+      - label: "Slider 2"
+        name: "slider2"
+        type: "object"
+        fields:
+          - { label: "Span", name: "span", type: "string" }
+          - { label: "Text", name: "text", type: "string" }
+          - { label: "Image", name: "image", type: "string" }
+          - { label: "Youtube", name: "embed_youtube", type: "string" }
+
+      - label: "Slider 3"
+        name: "slider3"
+        type: "object"
+        fields:
+          - { label: "Span", name: "span", type: "string" }
+          - { label: "Text", name: "text", type: "string" }
+          - { label: "Image", name: "image", type: "string" }
+          - { label: "Youtube", name: "embed_youtube", type: "string" }
+
+      - label: "Card 1"
+        name: "card1"
+        type: "object"
+        fields:
+          - { label: "Title", name: "title", type: "string" }
+          - { label: "Text", name: "description", type: "string" }
+
+      - label: "Card 2"
+        name: "card2"
+        type: "object"
+        fields:
+          - { label: "Title", name: "title", type: "string" }
+          - { label: "Text", name: "description", type: "string" }
+
+      - label: "Card 3"
+        name: "card3"
+        type: "object"
+        fields:
+          - { label: "Title", name: "title", type: "string" }
+          - { label: "Text", name: "description", type: "string" }
+
+      - label: "image Card"
+        name: "imageCard"
+        type: "object"
+        fields:
+          - { label: "Title", name: "title", type: "string" }
+          - { label: "Text", name: "description", type: "string" }
+          - { label: "Image", name: "image", type: "string" }
+
+      - label: "welcome Span"
+        name: "welcomeSpan"
+        type: "object"
+        fields:
+          - { label: "span", name: "span", type: "string" }
+
+      
+      - label: "welcome Head 1"
+        name: "welcomeHead1"
+        type: "object"
+        fields:
+          - { label: "Title", name: "title", type: "string" }
+          - { label: "Text", name: "description", type: "string" }
+
+      - label: "welcome Head 2"
+        name: "welcomeHead2"
+        type: "object"
+        fields:
+          - { label: "Title", name: "title", type: "string" }
+          - { label: "Text", name: "description", type: "string" } 
+
+  - name: about
+    label: About us
+    path: content/about/_index.md
+    type: file
+    fields:
+            - label: "about Area"
+              name: "aboutArea"
+              type: "object"
+              fields:
+                - { label: "Span", name: "span", type: "string" }
+                - { label: "title", name: "title", type: "string" }
+                - { label: "description", name: "description", type: "string" }
+                - { label: "boxTitle", name: "boxTitle", type: "string" }
+                - { label: "boxDescription", name: "boxDescription", type: "string" }
+                - { label: "name", name: "name", type: "string" }
+                - { label: "designation", name: "designation", type: "string" }
+                - { label: "topic1", name: "topic1", type: "string" }
+                - { label: "topic1detail", name: "topic1detail", type: "string" }
+                - { label: "topic2", name: "topic2", type: "string" }
+                - { label: "topic2detail", name: "topic2detail", type: "string" }
+                - { label: "topic3", name: "topic3", type: "string" }
+                - { label: "topic3detail", name: "topic3detail", type: "string" }
+                - { label: "topic4", name: "topic4", type: "string" }
+                - { label: "list1", name: "list1", type: "string" }
+                - { label: "list2", name: "list2", type: "string" }
+                - { label: "list3", name: "list3", type: "string" }
+                - { label: "list4", name: "list4", type: "string" }
+                - { label: "list5", name: "list5", type: "string" }
+                - { label: "list6", name: "list6", type: "string" }
+                - { label: "list7", name: "list7", type: "string" }
+                - { label: "list8", name: "list8", type: "string" }
+                - { label: "list9", name: "list9", type: "string" }
+                - { label: "list10", name: "list10", type: "string" }
+                - { label: "list11", name: "list11", type: "string" }
+                - { label: "list12", name: "list12", type: "string" }
+                - { label: "list13", name: "list13", type: "string" }
+            
+            - label: "services History"
+              name: "servicesHistory"
+              type: "object"
+              fields:
+                - { label: "service1year", name: "service1year", type: "string" }
+                - { label: "service1title", name: "service1title", type: "string" }
+                - { label: "service1explain", name: "service1explain", type: "string" }
+                - { label: "service2year", name: "service2year", type: "string" }
+                - { label: "service2title", name: "service2title", type: "string" }
+                - { label: "service2explain", name: "service2explain", type: "string" }
+                - { label: "service3year", name: "service3year", type: "string" }
+                - { label: "service3title", name: "service3title", type: "string" }
+                - { label: "service3explain", name: "service3explain", type: "string" }
+                - { label: "service4year", name: "service4year", type: "string" }
+                - { label: "service4title", name: "service4title", type: "string" }
+                - { label: "service4explain", name: "service4explain", type: "string" } 
+
+  - name: services
+    label: Services
+    path: content/services
+    type: "collection"
+    fields:
+      - { label: "Title", name: "title", type: "string" }
+      - { label: "Description", name: "description", type: "string" }
+      - { label: "Body", name: "body", type: "text" }
+        
+  - name: bio 
+    label: "Leadership"
+    path: content/leadership/_index.md
+    type: file
+    fields:
+      - label: "Leadership Area"
+          name: "bioArea"
+          type: "object"
+          fields:
+            - { label: "name", name: "name", type: "string" }
+            - { label: "occupation", name: "occupation", type: "string" }
+            - { label: "title", name: "title", type: "string" }
+            - { label: "aboutYou", name: "aboutYou", type: "text" }
+            - { label: "aboutYou1", name: "aboutYou1", type: "text" }
+            - { label: "aboutYou2", name: "aboutYou2", type: "text" }
+            - { label: "aboutYou3", name: "aboutYou3", type: "text" }
+            - { label: "aboutYou4", name: "aboutYou4", type: "text" }
+            - { label: "aboutYou5", name: "aboutYou5", type: "text" }
+            - { label: "aboutYou6", name: "aboutYou6", type: "text" }
+            - { label: "aboutYou7", name: "aboutYou7", type: "text" }
+            - { label: "image", name: "image", type: "string" }
+
+                
+  - name: contact 
+    label: Contact Us
+    path: content/contact/_index.md
+    type: file
+    fields:
+      - label: "contact Area "
+        name: "contactArea"
+        type: "object"
+        fields:
+          - { label: "description", name: "description", type: "text" }
+  
+  - name: tnc
+    label: Terms and Conditions
+    path: content/terms-and-conditions/_index.md
+    type: "file"
+    fields:
+      - { label: "Title", name: "title", type: "string" }
+      - { label: "Body", name: "body", type: "text" }
+
+  - name: config
+    label: website config
+    type: file
+    path: hugo.toml
+    fields:
+      - {label: BaseUrl, name: baseurl, type: string, default: /}
+      - {label: TabTitle, name: title, type: string}
+      - name: params
+        label: Generic Parameters
+        type: object
+        fields:
+            - {label: Website, name: website, type: string}
+            - {label: Experience, name: experience, type: string}
+            - {label: Company, name: company, type: string}
+            - {label: email, name: email, type: string}
+            - {label: mobile, name: mobile, type: string}
+            - {label: address, name: address, type: text}
+            - {label: keywords(comma separated), name: keywords, type: text}
+
+  - name: team
+    label: Team
+    type: file
+    path: content/clinical/_index.md
+    fields:
+      - name: people
+        label: People
+        type: object
+        list: true
+        fields:
+          - {name: name, label: Name, type: string}
+          - {name: caption, label: Caption, type: string}
+          - {name: linkedin, label: Linkedin, type: string}
+          - {name: image, label: Image, type: string}
+          - {name: description, label: Description, type: code, options: { format: html}}
