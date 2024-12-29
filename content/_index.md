@@ -5,7 +5,7 @@ slider1:
   image: assets/img/slider/slider-02.jpg
 slider2:
   span: Unlock Your Child's Potential
-  text: Comprehensive Autizum Stratergies and Parent Guidance
+  text: Comprehensive Autizum Strategies and Parent Guidance
   image: assets/img/slider/slider-01.jpg
 slider3:
   span: Breaking Barriers, Building Futures
@@ -24,7 +24,7 @@ card3:
   description: We offer continuous support, ensuring progress beyond therapy
     sessions, empowering children and families with comprehensive, 24/7 care.
 imageCard:
-  title: 20
+  title: "20 "
   description: years of Professional Experience
   image: assets/img/about/about-3.jpg
 welcomeSpan:
@@ -35,6 +35,6 @@ welcomeHead1:
     stability for lasting success and development.
 welcomeHead2:
   title: Dedicated Support Manager
-  description: Our dedicated managers focus on individual needs, ensuring progress
-    through personalized care and guidance.
+  description: "Our dedicated managers focus on individual needs, ensuring
+    progress through personalized care and guidance.\r"
 ---
