@@ -28,7 +28,7 @@ imageCard:
   description: years of Professional Experience
   image: assets/img/about/about-3.jpg
 welcomeSpan:
-  span: welcome to Autizum Consulting
+  span: welcome to Autizum
 welcomeHead1:
   title: Professional Care Manager
   description: Expert managers provide tailored support, fostering growth and
