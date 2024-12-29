@@ -1,6 +1,6 @@
 ---
 title: Autizum for 504 & Parental Rights
-description: Guidance on autizum's, 504 plans, and parental rights.
+description: Guidance on autism, 504 plans, and parental rights.
 ---
 Understanding and advocating for your child's educational rights is crucial in ensuring they receive the proper support in school. A 504 Plan is designed to provide accommodations for students with disabilities so they can have equal access to learning, regardless of their challenges. These accommodations may include changes to the classroom environment, extended testing time, or specific behavioral interventions.
 
