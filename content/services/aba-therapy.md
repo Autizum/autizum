@@ -1,7 +1,8 @@
 ---
-title: ABA therapy
-description: ABA therapy description
+title: ABA Therapy
+description: "ABA therapy description\r"
 ---
+
 Applied Behavior Analysis (ABA) therapy is a proven, evidence-based approach designed to support children with autism and other developmental delays in learning essential life skills. By focusing on positive reinforcement and structured teaching, ABA helps children improve communication, social interactions, and behavior regulation. Each plan is customized to the child's unique needs, ensuring targeted progress and long-term success.
 
 ### How Autizum Consulting Supports Children
