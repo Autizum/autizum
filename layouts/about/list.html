@@ -80,13 +80,13 @@
     <div class="row">
         <div class="col-xl-12 col-lg-9">
             <div class="section__title mb-65 pt-10">
-                <h2 class="mb-20">Mission</h2>
-                <p>At Autizum, our mission is to empower children with autism by providing personalized, evidence-based Applied Behavior Analysis (ABA) therapy. We are committed to collaborating closely with families, caregivers, and educators to develop individualized treatment plans that help children build essential life skills, improve communication, and foster independence. Through compassion, expertise, and a family-centered approach, we aim to support each child in achieving meaningful, long-lasting progress.</p>
-                <h2 class="mb-20">Vision</h2>
-                <p>Our vision is to be a global leader in autism care and school consultancy, recognized for delivering exceptional ABA services that transform lives. We strive to create a world where every child with autism has the opportunity to reach their full potential in a nurturing, inclusive environment. By continuously innovating our practices and expanding our reach, we aim to set new standards for comprehensive care and advocacy in the autism community, ensuring that every child has the support they need to thrive. </p>
-                <h2 class="mb-20"> Our Commitment to Families and Child Development</h2>
-                <p>We enhance our evaluations and treatment plans by actively including recommendations and feedback from families, caregivers, and teachers. We prioritize supporting families during transitions and helping them achieve their children's developmental goals. Our clinicians coach parents on implementing carryover interventions alongside regular care plans. We provide coaching and training in child development for community members and childcare providers. By aligning a child's environment with their needs, we foster a supportive space for them to thrive. </p>
-                <h2>How We Help Kids :</h2>
+                <h2 class="mb-20">{{.Params.aboutArea.topic1}}</h2>
+                <p>{{.Params.aboutArea.topic1detail}}</p>
+                <h2 class="mb-20">{{.Params.aboutArea.topic2}}</h2>
+                <p>{{.Params.aboutArea.topic2detail}}</p>
+                <h2 class="mb-20">{{.Params.aboutArea.topic3}}</h2>
+                <p>{{.Params.aboutArea.topic3detail}}</p>
+                <h2 class="mb-20">{{.Params.aboutArea.topic4}}</h2>
                 <div class="why_list1 pt-20">
                             <ul>
                                 <li>Social Skills  </li>
@@ -132,84 +132,34 @@
           <div class="section__icon mb-10">
             <span
               class="section__sub-title section__sub-title-2 section__sub-title-3 section__sub-title-4"
-              >service history</span
+              >Service History</span
             >
           </div>
         </div>
       </div>
     </div>
     <div class="row">
+      {{ range .Params.services }}
       <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
         <div
           class="services__history-item text-center text-sm-left mb-60 pr-35"
         >
           <div class="services__history-year mb-30">
-            <h2>2018</h2>
+            <h2>{{ .year }}</h2>
           </div>
           <div class="services__history-content">
             <h3>
-              <a href="about-us.html#"
-                >Behavioral Therapy Launch</a
-              >
+              <a href="about-us.html#">{{ .title }}</a>
             </h3>
-            <p>Introduced a comprehensive ABA therapy program tailored to individual needs of children with autism.</p>
+            <p>{{ .explain }}</p>
           </div>
         </div>
       </div>
-      <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
-        <div
-          class="services__history-item text-center text-sm-left mb-60 pr-35"
-        >
-          <div class="services__history-year mb-30">
-            <h2>2020</h2>
-          </div>
-          <div class="services__history-content">
-            <h3>
-              <a href="about-us.html#"
-                >Multidisciplinary Evaluations Initiated</a
-              >
-            </h3>
-            <p>Integrated cross-functional evaluations for students with ASD, focusing on behavior, academics, and social development.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
-        <div
-          class="services__history-item text-center text-sm-left mb-60 pr-35"
-        >
-          <div class="services__history-year mb-30">
-            <h2>2021</h2>
-          </div>
-          <div class="services__history-content">
-            <h3>
-              <a href="about-us.html#"
-                >Parent Training Programs Introduced</a
-              >
-            </h3>
-            <p>Launched personalized parent coaching and training services to enhance home-based intervention success.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
-        <div
-          class="services__history-item text-center text-sm-left mb-60 pr-35"
-        >
-          <div class="services__history-year mb-30">
-            <h2>2023</h2>
-          </div>
-          <div class="services__history-content">
-            <h3>
-              <a href="about-us.html#"
-                >Global Collaboration Expansion</a
-              >
-            </h3>
-            <p>Established international partnerships, expanding our support network to multicultural and multilingual families.</p>
-          </div>
-        </div>
-      </div>
+      {{ end }}
     </div>
   </div>
 </section>
+
 <!-- services history area end -->
 
 <!-- faq area start -->

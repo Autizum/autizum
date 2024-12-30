@@ -56,34 +56,18 @@ aboutArea:
     members and childcare providers. By aligning a child's environment with
     their needs, we foster a supportive space for them to thrive.
   topic4: "How We Help Kids :"
-  list1: "Social Skills  "
-  list2: "Fine Motor Skills   "
-  list3: School Readiness
-  list4: Emotional Development
-  list5: "Parent Education    "
-  list6: Self Care Skills
-  list7: "Language & Communication  "
-  list8: Problem Solving & Critical Thinking
-  list9: " Play Skills"
-  list10: Self-Regulation & Impulse Contro
-  list11: Resilience & Coping Skills
-  list12: "Time Management "
-  list13: " Organization Safety Awareness"
 servicesHistory:
-  service1year: "2018"
-  service1title: Behavioral Therapy Launch
-  service1explain: Introduced a comprehensive ABA therapy program tailored to
-    individual needs of children with autism.
-  service2year: "2020"
-  service2title: Multidisciplinary Evaluations Initiated
-  service2explain: Integrated cross-functional evaluations for students with ASD,
-    focusing on behavior, academics, and social development.
-  service3year: "2021"
-  service3title: Parent Training Programs Introduced
-  service3explain: Launched personalized parent coaching and training services to
-    enhance home-based intervention success.
-  service4year: "2023"
-  service4title: Global Collaboration Expansion
-  service4explain: Established international partnerships, expanding our support
-    network to multicultural and multilingual families.
+services:
+  - year: "2018"
+    title: "Behavioral Therapy Launch"
+    explain: "Introduced a comprehensive ABA therapy program tailored to individual needs of children with autism."
+  - year: "2020"
+    title: "Multidisciplinary Evaluations Initiated"
+    explain: "Integrated cross-functional evaluations for students with ASD, focusing on behavior, academics, and social development."
+  - year: "2021"
+    title: "Parent Training Programs Introduced"
+    explain: "Launched personalized parent coaching and training services to enhance home-based intervention success."
+  - year: "2023"
+    title: "Global Collaboration Expansion"
+    explain: "Established international partnerships, expanding our support network to multicultural and multilingual families."
 ---
