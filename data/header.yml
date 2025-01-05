@@ -12,7 +12,8 @@ nav:
   - name: "About Us"
     url: "/about"
 
- 
+  - name: "Peers"
+    url: "/peers"
 
   - name: "Team"
     # url: "/clinical"
