@@ -1,145 +1,98 @@
 {{ define "main" }}
-<section class="hero text-white py-5 " style="background-color: #532c96;">
+<section class="hero text-white py-5" style="background-color: #532c96;">
   <div class="container text-center">
-    <h1 class="display-4">What is PEERS®?</h1>
-    <p class="lead">
-      The Program for the Education and Enrichment of Relational Skills (PEERS®) is a highly regarded, evidence-based social skills intervention designed for adolescents with autism spectrum disorder (ASD) and other social challenges, including ADHD, anxiety, and depression.
-    </p>
-    <p>
-      Developed by Dr. Elizabeth Laugeson at UCLA, this program helps adolescents improve their social and psychosocial functioning.
-    </p>
+    <h1 class="display-4">{{ .Params.peerArea.topic1 }}</h1>
+    <p class="lead">{{ .Params.peerArea.topic1detail }}</p>
+    <h5 class="lead">{{ .Params.peerArea.topic11detail }}</h5>
   </div>
 </section>
 
 <section class="features py-5 bg-light">
   <div class="container">
-    <h2 class="text-center mb-4"><i class="fas fa-star" style="color: #532c96;"></i> Essential Features of PEERS® for Adolescents</h2>
+    <h2 class="text-center mb-4"><i class="fas fa-star" style="color: #532c96;"></i> {{ .Params.peerArea.topic2 }}</h2>
     <div class="row">
+      {{ range .Params.peerArea.topic2details }}
       <div class="col-md-6">
         <ul class="list-group">
           <li class="list-group-item">
-            <i class="fas fa-check-circle" style="color: #532c96;"></i> Parent/caregiver-assisted, 16-week intervention tailored for adolescents with social difficulties.
-          </li>
-          <li class="list-group-item">
-            <i class="fas fa-check-circle" style="color: #532c96;"></i> Focuses on cooperative social behavior, social assertiveness, and self-regulation to promote social acceptance.
-          </li>
-          <li class="list-group-item">
-            <i class="fas fa-check-circle" style="color: #532c96;"></i> Improves receptive and expressive social communication skills, enhancing social responsiveness.
+            <i class="fas fa-check-circle" style="color: #532c96;"></i> {{ . }}
           </li>
         </ul>
       </div>
-      <div class="col-md-6">
-        <ul class="list-group">
-          <li class="list-group-item">
-            <i class="fas fa-check-circle" style="color: #532c96;"></i> Encourages greater empathy by developing social cognitive abilities.
-          </li>
-          <li class="list-group-item">
-            <i class="fas fa-check-circle" style="color: #532c96;"></i> Provides strategies for participating in social activities and hobbies to foster friendships and reduce feelings of loneliness.
-          </li>
-        </ul>
-      </div>
+      {{ end }}
     </div>
   </div>
 </section>
 
 <section class="outcomes py-5">
   <div class="container">
-    <h2 class="text-center mb-4"><i class="fas fa-heart" style="color: #532c96;"></i> Outcomes for Adolescents</h2>
+    <h2 class="text-center mb-4"><i class="fas fa-heart" style="color: #532c96;"></i> {{ .Params.peerArea.topic3 }}</h2>
     <div class="row">
+      {{ range .Params.peerArea.outcomes }}
       <div class="col-md-4 text-center">
-        <i class="fas fa-handshake fa-3x" style="color: #532c96;"></i>
-        <h4>Enhanced Friendships</h4>
-        <p>Enhanced ability to form and maintain friendships.</p>
+        <i class="{{ .icon }} fa-3x" style="color: #532c96;"></i>
+        <h4>{{ .title }}</h4>
+        <p>{{ .detail }}</p>
       </div>
-      <div class="col-md-4 text-center">
-        <i class="fas fa-users fa-3x" style="color: #532c96;"></i>
-        <h4>Increased Confidence</h4>
-        <p> Increased confidence in social interactions.
-        </p>
-      </div>
-      <div class="col-md-4 text-center">
-        <i class="fas fa-smile-beam fa-3x" style="color: #532c96;"></i>
-        <h4>Reduced Isolation</h4>
-        <p>A decrease in feelings of isolation through meaningful social connections. This program supports adolescents in navigating the complexities of social relationships, empowering them to thrive in their daily lives.</p>
-      </div>
+      {{ end }}
     </div>
   </div>
 </section>
 
 <section class="program bg-light py-5">
   <div class="container">
-    <h2 class="text-center mb-4"><i class="fas fa-graduation-cap" style="color: #532c96;"></i> PEERS® Program at Autizum</h2>
-    <p class="text-center">
-      The Program for the Education and Enrichment of Relational Skills (PEERS®) is a globally recognized, evidence-based, 16-week social skills program designed for adolescents and adults with Autism Spectrum Disorder (ASD), Attention Deficit/Hyperactivity Disorder (ADHD), anxiety, depression, and other social challenges. 
-    </p>
+    <h2 class="text-center mb-4"><i class="fas fa-graduation-cap" style="color: #532c96;"></i> {{ .Params.peerArea.topic4 }}</h2>
+    <p class="text-center">{{ .Params.peerArea.topic4detail }}</p>
   </div>
 </section>
 
 <section class="team py-5">
   <div class="container">
     <h2 class="text-center mb-4"><i class="fas fa-users" style="color: #532c96;"></i> Meet Our Team</h2>
-    <p>
-      Autizum is a secure, welcoming, and supportive space dedicated to supporting adolescents and adults seeking to enhance their social skills. 
-    </p>
-    <p>
-      Our team works with a variety of different groups and communities. 
-      We proudly offer the PEERS® Evidence-Based Program, developed at the University of California, Los Angeles (UCLA), to help individuals with Autism Spectrum Disorder (ASD), Attention Deficit/Hyperactivity Disorder (ADHD), and other social challenges. 
-     
-    </p>
-    <p>Grounded in the latest UCLA research on social skill development, our approach prioritizes each person’s unique strengths, challenges, and goals. 
-      Through personalized support, we aim to build social confidence, foster meaningful connections, and empower individuals with a stronger sense of self. 
-      </p>
-
-      <p>Our team members are trained at Semel Institute for Neuroscience as <b>PEERS® Certified providers for Adolescence</b>. 
-      </p>
+    <p>{{ .Params.team.detail }}</p>
+    <p>{{ .Params.team.certified }}</p>
   </div>
 </section>
 
 <section class="research py-5 bg-light">
   <div class="container">
-    <h2 class="text-center mb-4"><i class="fas fa-book-open" style="color: #532c96;"></i>  Why Choose PEERS® and not other social skills method:
-    </h2>
-    <h3>A Look into the ongoing Research:
-    </h3>
-    <p>
-      The PEERS® program has demonstrated effectiveness through multiple randomized controlled trials, with evidence of maintained gains 1–5 years post-treatment (Laugeson et al., 2015). 
-    </p>
-    <p> After completing the 16-week PEERS® program, caregivers reported overall improvements in social skills, including cooperative social behavior with peers and family members, increased social assertiveness, and enhanced self-control (Laugeson et al., 2015). 
-      <div class="col-">
-        <ul class="list-group">
-          <li class="list-group-item">
-            <i class="fas fa-check-circle" style="color: #532c96;"></i> Participants showed significant gains in social responsiveness, attributed to the program’s focus on receptive and expressive social communication skills (Laugeson et al., 2015). 
-          </li>
-          <li class="list-group-item">
-            <i class="fas fa-check-circle" style="color: #532c96;"></i> Empathy also improved significantly among participants, likely due to the development of social cognitive skills that help them better understand others’ mental and emotional states (Baron-Cohen & Wheelwright, 2004).
-          </li>
-          <li class="list-group-item">
-            <i class="fas fa-check-circle" style="color: #532c96;"></i> The program reduced self-reported loneliness by encouraging greater participation in social activities and hobbies while fostering meaningful friendships (Laugeson et al., 2015).
-          </li>
-          <li class="list-group-item">
-            <i class="fas fa-check-circle" style="color: #532c96;"></i> Caregivers reported a marked increase in the frequency of social invitations received by participants from non-PEERS® friends (Laugeson et al., 2015).  
-
-          </li>
-        </ul>
-    </div>
+    <h2 class="text-center mb-4"><i class="fas fa-book-open" style="color: #532c96;"></i> {{ .Params.research.title }}</h2>
+    <ul class="list-group">
+      {{ range .Params.research.details }}
+      <li class="list-group-item">
+        <i class="fas fa-check-circle" style="color: #532c96;"></i> {{ . }}
+      </li>
+      {{ end }}
+    </ul>
+  </div>
 </section>
 
 <section class="evidence py-5">
   <div class="container">
-    <h2 class="text-center mb-4"><i class="fas fa-flask" style="color: #532c96;"></i> What Does It Mean to Be Evidence-Based?</h2>
+    <h2 class="text-center mb-4">
+      <i class="fas fa-flask" style="color: #532c96;"></i> {{ .Params.evidenceTitle }}
+    </h2>
     <p>
-      To earn the label Evidence-Based, the PEERS® program underwent rigorous clinical trials and comprehensive research to collect data supporting its efficacy. 
-      </p><p>
-These trials demonstrate the program’s ability to deliver measurable, replicable benefits in social skills and overall psychosocial functioning (Laugeson et al., 2015). 
-
+      {{ .Params.evidenceParagraph1 }}
+    </p>
+    <p>
+      {{ .Params.evidenceParagraph2 }}
     </p>
   </div>
 </section>
 
-<section class="flyer py-5 bg-primary text-white">
+
+<section class="flyer py-5  text-white" style="background-color: #532c96;">
   <div class="container text-center">
-    <h2><i class="fas fa-qrcode" style="color: #532c96;"></i> Download Our Flyer</h2>
-    <p>Click <a href="#" class="text-warning">here</a> to download the flyer with a QR code for quick access!</p>
+    <h2><i class="fas fa-qrcode" style="color: #c21d9f;"></i> Download Our Flyer</h2>
+    <p>
+      Click 
+      <a href="assets/img/flyer/peer-flyer.png" download="PeerFlyer.png" class="text-warning">
+        here
+      </a> 
+      to download the flyer with a QR code for quick access!
+    </p>
   </div>
 </section>
+
 {{ end }}
