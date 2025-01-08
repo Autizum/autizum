@@ -21,8 +21,7 @@ card2:
     therapy, building essential communication and social skills for your child
 card3:
   title: "Patient Support "
-  description: We offer continuous support, ensuring progress beyond therapy
-    sessions, empowering children and families with comprehensive, 24/7 care.
+  description: We offer continuous support ensuring progress beyond therapy sessions, empowering children and families.
 imageCard:
   title: "20 "
   description: years of Professional Experience

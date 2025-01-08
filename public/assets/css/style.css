@@ -290,7 +290,7 @@ p {
 }
 
 .footer-bg {
-  background: #151616;
+  background: #ffffff;
 }
 
 .footer-bottom-bg {
@@ -4590,14 +4590,14 @@ p {
 .footer__widget-title h2 {
   font-size: 30px;
   margin-bottom: 0;
-  color: #ffffff;
+  color: #c21d9f;
 }
 .footer__logo-area p {
   margin-bottom: 30px;
 }
 .footer__logo-area .social h4 {
   font-size: 27px;
-  color: #ffffff;
+  color: #c21d9f;
   margin-bottom: 25px;
 }
 .footer__logo-area .social ul li {
@@ -4625,7 +4625,7 @@ p {
   margin-bottom: 5px;
 }
 .footer__services ul li a {
-  color: #bababa;
+  color: #532c96;
   padding-left: 10px;
   position: relative;
 }
@@ -4644,7 +4644,7 @@ p {
 }
 .footer__services ul li a:hover {
   padding-left: 20px;
-  color: #ffffff;
+  color: #c21d9f;
 }
 .footer__services ul li a:hover::before {
   width: 10px;
