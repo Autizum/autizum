@@ -1,7 +1,7 @@
 ---
 aboutArea:
   span: Welcome to Autizum
-  title: Clients are Happy, Cause Proper Tailored Plans
+  title: Empowering Autism Care with  personalized tailored plans
   description: At Autizum, we are a well recognized international team
     helping children with autism reach their full potential through personalized
     Applied Behaviour Analysis (ABA) therapy. Our team of experienced Board
@@ -56,18 +56,5 @@ aboutArea:
     members and childcare providers. By aligning a child's environment with
     their needs, we foster a supportive space for them to thrive.
   topic4: "How We Help Kids :"
-servicesHistory:
-services:
-  - year: "2018"
-    title: "Behavioral Therapy Launch"
-    explain: "Introduced a comprehensive ABA therapy program tailored to individual needs of children with autism."
-  - year: "2020"
-    title: "Multidisciplinary Evaluations Initiated"
-    explain: "Integrated cross-functional evaluations for students with ASD, focusing on behavior, academics, and social development."
-  - year: "2021"
-    title: "Parent Training Programs Introduced"
-    explain: "Launched personalized parent coaching and training services to enhance home-based intervention success."
-  - year: "2023"
-    title: "Global Collaboration Expansion"
-    explain: "Established international partnerships, expanding our support network to multicultural and multilingual families."
+
 ---

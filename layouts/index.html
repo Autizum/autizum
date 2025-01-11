@@ -1,7 +1,7 @@
 {{ define "main" }}
 
 <!-- slider area start -->
-<div class="slider-area slider-area-3 slider-has-arrow p-relative">
+<div class="slider-area slider-area-3 slider-has-arrow p-relative pb-200">
   <div class="slider-active">
     <div
       class="single-slider slider-height-3 slider-overlay slider-overlay-3 p-relative d-flex align-items-center"
@@ -76,65 +76,12 @@
 <!-- slider area end -->
 
 <!-- features area start -->
-<section
-  class="features-area features-area-border p-relative pink-soft-bg-3 pb-90 pt-120 box-105"
->
-  <div class="container-fluid features__wrapper">
-    <div class="row">
-      <div class="col-xl-4 col-lg-6 col-md-6">
-        <div
-          class="features__item d-flex white-bg transition-3 border-radius-8 box-shadow mb-30"
-        >
-          <div class="features__icon">
-            <span class="icon flaticon-happy"></span>
-          </div>
-          <div class="features__content">
-            <h3>{{.Params.card1.title}}</h3>
-            <p>
-              {{.Params.card1.description}}
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="col-xl-4 col-lg-6 col-md-6">
-        <div
-          class="features__item d-flex white-bg transition-3 border-radius-8 box-shadow mb-30"
-        >
-          <div class="features__icon">
-            <span class="icon flaticon-psychologist"></span>
-          </div>
-          <div class="features__content">
-            <h3>{{.Params.card2.title}}</h3>
-            <p>
-              {{.Params.card2.description}}
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="col-xl-4 col-lg-6 col-md-6">
-        <div
-          class="features__item d-flex white-bg transition-3 border-radius-8 box-shadow mb-30"
-        >
-          <div class="features__icon">
-            <span class="icon flaticon-24-hours-support-1"></span>
-          </div>
-          <div class="features__content">
-            <h3>{{.Params.card3.title}}</h3>
-            <p>
-              {{.Params.card3.description}}
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
 <!-- features area end -->
 
 <!-- about area start -->
-<section class="about__area-3 mb-120 box-105 pt-180 p-relative white-bg">
+<section class="about__area-3 mb-120 box-105 pt-380 p-relative white-bg">
   <div
-    class="about__bg-img about__bg-img-3 p-absolute"
+    class="about__bg-img about__bg-img-3 p-absolute border-radius-8"
     data-background="{{.Params.imageCard.image}}"
   >
     <div class="about__info-experience-3 p-absolute">
@@ -159,49 +106,79 @@
           </div>
 
           <p>
-           {{.Params.welcomeHead.description}}
+            {{.Params.welcomeHead.description}}
           </p>
 
-          <div class="about__info-3">
-            <div class="about__info-item d-flex">
-              <div class="about__info-icon mr-25">
-                <span class="icon flaticon-psychologist"></span>
-              </div>
-              <div class="about__info-text">
-                <h3>{{.Params.welcomeHead1.title}}</h3>
-                <p>
-                  {{.Params.welcomeHead1.description}}
-                </p>
-              </div>
-            </div>
-            <div class="about__info-item d-flex">
-              <div class="about__info-icon mr-25">
-                <span class="icon flaticon-happy about__info-icon-pink"></span>
-              </div>
-              <div class="about__info-text">
-                <h3>{{.Params.welcomeHead2.title}}</h3>
-                <p>
-                  {{.Params.welcomeHead2.description}}
-                </p>
+          <!-- Adjusted Row Div -->
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="features__items d-flex flex-column align-items-stretch">
+                <!-- Feature Card 1 -->
+                <div
+                  class="features__item d-flex white-bg transition-3 border-radius-8 box-shadow mb-30"
+                 
+                >
+                  <div class="features__icon">
+                    <span class="icon flaticon-happy"></span>
+                  </div>
+                  <div class="features__content">
+                    <h3>{{.Params.card1.title}}</h3>
+                    <p>
+                      {{.Params.card1.description}}
+                    </p>
+                  </div>
+                </div>
+                <!-- Feature Card 2 -->
+                <div
+                  class="features__item d-flex white-bg transition-3 border-radius-8 box-shadow mb-30"
+                 
+                >
+                  <div class="features__icon">
+                    <span class="icon flaticon-psychologist"></span>
+                  </div>
+                  <div class="features__content">
+                    <h3>{{.Params.card2.title}}</h3>
+                    <p>
+                      {{.Params.card2.description}}
+                    </p>
+                  </div>
+                </div>
+                <!-- Feature Card 3 -->
+                <div
+                  class="features__item d-flex white-bg transition-3 border-radius-8 box-shadow mb-30"
+                  
+                >
+                  <div class="features__icon">
+                    <span class="icon flaticon-24-hours-support-1"></span>
+                  </div>
+                  <div class="features__content">
+                    <h3>{{.Params.card3.title}}</h3>
+                    <p>
+                      {{.Params.card3.description}}
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
+          <!-- End of Adjusted Row Div -->
         </div>
       </div>
     </div>
   </div>
 </section>
+
 <!-- about area start -->
 
 <!-- services area start -->
-<section class="services__area-2 pt-110 pb-90">
+<section class="services__area-2 pt-30 pb-90">
   <div class="container">
       <div class="row">
           <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
               <div class="section__title mb-70 text-center">
-                  <h1>Professional Psychology Therapy Service You Can Choose</h1>
+                  <h1>Professional ABA Therapy Service You Can Choose</h1>
                   <div class="section__icon mb-10">
-                      <span class="section__sub-title section__sub-title-2 section__sub-title-3 section__sub-title-4">affordable Services</span>
+                      <span class="section__sub-title section__sub-title-2 section__sub-title-3 section__sub-title-4">We accept all major insurances and private pay                      </span>
                   </div>
               </div>
           </div>

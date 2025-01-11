@@ -1640,7 +1640,7 @@ p {
   z-index: 1;
 }
 .features__item {
-  padding: 44px 38px;
+  padding: 8px 18px;
 }
 .features__item:hover {
   background-color: #c21d9f;
@@ -1796,9 +1796,9 @@ p {
 .about__inner-3::after {
   display: none;
 }
-.about__content-wrapper p {
-  margin-bottom: 45px;
-}
+/* .about__content-wrapper p {
+  margin-bottom: 15px;
+} */
 .about__info-experience {
   border: 10px solid #c21d9f;
   padding: 30px 22px;
