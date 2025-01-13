@@ -15,7 +15,7 @@ people:
   - name: Joanne Valcin-Dickson | M.A, NC BCaBA
     caption: NC Behavior Analyst Assistant
     linkedin: https://www.linkedin.com/in/joanne-valcin-dickson-89bb7a6b
-    image: /assets/img/team/joanne-new.jpg
+    image: /assets/img/team/joanne-new.jpeg
     description: >-
       <p>With a Master's degree in Behavior Analysis Practice and a Bachelor's
       degree with a concentration in Gerontology, Joanne brings a wealth of
