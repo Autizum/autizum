@@ -3,33 +3,48 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
+    <changefreq>daily</changefreq>
   </url><url>
     <loc>http://localhost:1313/about/</loc>
+    <changefreq>daily</changefreq>
   </url><url>
     <loc>http://localhost:1313/clinical/</loc>
+    <changefreq>daily</changefreq>
   </url><url>
     <loc>http://localhost:1313/contact/</loc>
+    <changefreq>daily</changefreq>
   </url><url>
     <loc>http://localhost:1313/leadership/</loc>
+    <changefreq>daily</changefreq>
   </url><url>
     <loc>http://localhost:1313/services/aba-therapy/</loc>
+    <changefreq>daily</changefreq>
   </url><url>
     <loc>http://localhost:1313/services/advocacy-for-504-and-parental-rights/</loc>
+    <changefreq>daily</changefreq>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
+    <changefreq>daily</changefreq>
   </url><url>
     <loc>http://localhost:1313/services/parent-counselling/</loc>
+    <changefreq>daily</changefreq>
   </url><url>
     <loc>http://localhost:1313/peers/</loc>
+    <changefreq>daily</changefreq>
   </url><url>
     <loc>http://localhost:1313/services/school-readiness-special-education/</loc>
+    <changefreq>daily</changefreq>
   </url><url>
     <loc>http://localhost:1313/services/</loc>
+    <changefreq>daily</changefreq>
   </url><url>
     <loc>http://localhost:1313/services/speech-development-verbal-behaviour-development/</loc>
+    <changefreq>daily</changefreq>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
+    <changefreq>daily</changefreq>
   </url><url>
     <loc>http://localhost:1313/terms-and-conditions/</loc>
+    <changefreq>daily</changefreq>
   </url>
 </urlset>
