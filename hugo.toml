@@ -1,6 +1,7 @@
 
 baseurl = 'https://autizum.com/'
-title = 'Autizum'
+title = 'Autizum: ABA Therapy & Parent Support'
+params.description = 'Autizum: Expert ABA therapy, advocacy, and parent counseling.'
 params.website = 'https://autizum.com/'
 params.experience = '15'
 params.company = 'Autizum'
