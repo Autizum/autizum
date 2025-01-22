@@ -13,12 +13,10 @@ slider3:
   image: assets/img/slider/slider-02.jpg
 card1:
   title: Satisfied Services
-  description: We offer personalized care to enhance children's development and
-    improve their quality of life through expert guidance.
+  description: Through expert guidance and personalized care, we enhance children's development and improve their quality of life.
 card2:
   title: " Dedicated Therapist"
-  description: Our skilled therapists, BCBAs and RBTs, provide individualized ABA
-    therapy, building essential communication and social skills for your child
+  description: Our skilled therapists, BCBAs and RBTs, provide individualized ABA therapy, building essential communication and social skills for your child
 card3:
   title: "Patient Support "
   description: We offer continuous support ensuring progress beyond therapy sessions, empowering children and families.

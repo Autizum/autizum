@@ -1,32 +1,12 @@
 ---
 bioArea:
   name: FLORINA DAVID COLAR
-  occupation: M.A., M.S., BCBA, LBA, QBA, BCASE
-  aboutYou: As the CEO and Founder of Autizum, Florina David
-    Colar's mission is to enhance educational outcomes through expert behavior
-    analysis and individualized support for school districts. With a focus on
-    evidence-based practices, her team and she have established impactful social
-    skills programs and comprehensive guidelines for international internships
-    in behavior analysis.
+  occupation: M.A., M.S., BCBA, LBA NC, VA and TX
+  aboutYou: As a Chief Clinical Officer and Founder of Autizum, Florina David Colar, is an expert in behavior analysis and a dedicated advocate for improved educational outcomes for individuals with autism. Her mission is to provide families and schools with individualized support and evidence-based practices that make a real difference. 
   image: /assets/img/sychologist/Florina-david.png
-  aboutYou1: Born in Transylvania, Romania, Florina's journey began in Europe,
-    where she earned her B.S. in Clinical Psychology from Babes-Bolyai State
-    University. She later pursued her M.A. in Clinical Psychology with an
-    emphasis in Applied Behavior Analysis at The Chicago School of Professional
-    Psychology in the USA. Her academic pursuits were followed by extensive work
-    experience in the UK, USA, and Canada, solidifying her expertise.
-  aboutYou2: Her work in renowned institutions, such as City of Hope Medical
-    Center in California, and her collaboration with esteemed professionals like
-    Dr. Joyce Tu-BCBA-D and Dr. Hank Schlinger, PhD, BCBA-D, have been
-    instrumental in shaping her approach. Florina's experience as a Behavior
-    Consultant and Clinical Director in various agencies has equipped her with a
-    unique understanding of the complexities of autism.
-  aboutYou3: As the founder of Autizum, Florina has created a haven
-    for high-functioning individuals with autism in California. Her expertise
-    extends to verbal behavior programming, early intervention, and
-    multidisciplinary evaluations. Her dedication to professional development
-    has led to numerous publications and presentations at international
-    conferences.
+  aboutYou1: Originally from Transylvania, Romania, Florina began her journey in Europe, where she earned her B.S. in Clinical Psychology from Babes-Bolyai State University. Her academic pursuits led her to the USA, where she received her M.A. in Clinical Psychology with an emphasis in Applied Behavior Analysis from The Chicago School of Professional Psychology.  Under the mentorship of Dr. Joyce Tu-BCBA-D and Dr. Hank Schlinger, PhD, BCBA-D, she honed her skills as a behavior analyst. 
+  aboutYou2: Florina's  experience as a Behavior Consultant and Clinical Director in various agencies has given her a deep understanding of the complexities of autism. Florina David Colar is a respected and compassionate Board Certified Behavior Analyst (BCBA) and Ph.D. student in Clinical Psychology whose work transcends borders. Her dedication to evidence-based practices is reflected in the impactful social skills programs and comprehensive international internship guidelines in behavior analysis that she and her team have established. 
+  aboutYou3:  Florina's expertise, empathy, and commitment to inclusivity have garnered international recognition and inspired a global community to embrace understanding. She is a beacon of hope for individuals with autism and their families worldwide, and her work continues to advance the field of ABA.
   aboutYou4: As the CEO and Founder of Autizum, Florina's mission
     is to enhance educational outcomes through expert behavior analysis and
     individualized support for school districts. With a focus on evidence-based
@@ -47,5 +27,5 @@ bioArea:
     and expertise. Her international appeal and commitment to advancing the
     field of ABA make her a beacon of hope for individuals with autism and their
     families worldwide.
-  title: Licensed Behaviour Analyst in NC and VA
+  title: Peers® Certified Provider
 ---
