@@ -11,6 +11,7 @@
     content="{{ with .Params.keywords }}{{ . }}{{ else }}{{ with site.Params.keywords }}{{ . }}{{ end }}{{ end }}"
   />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="google-site-verification" content="4vg7QuUDDVz-nZZtsNcr8-aRQ-q-eoEqaGeBi5pLfTM" />
 
   <!-- Place favicon.ico in the root directory -->
   <link
@@ -18,8 +19,12 @@
     type="image/x-icon"
     href="/assets/img/favicon.png"
   />
+  <script type="application/ld+json">
+    {{ readFile "data/advancedstrcutured.json" | safeHTML }}
+    </script>
 
- 
+  <link rel="canonical" href="https://autizum.com/" />
+
   <!-- CSS here -->
   <link rel="stylesheet" href="/assets/css/preloader.css" />
   <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
@@ -33,20 +38,22 @@
   <link rel="stylesheet" href="/assets/css/nice-select.css" />
   <link rel="stylesheet" href="/assets/css/default.css" />
   <link rel="stylesheet" href="/assets/css/style.css" />
-  <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-K43RS7LS');</script>
-  <!-- End Google Tag Manager -->
-
-    <!-- advancedstructured data json-->
-
-  <script type="application/ld+json">
-    {{ readFile "data/advancedstrcutured.json" | safeHTML }}
-    </script>
-  <!-- END advancedstructured data json-->
-
-
 </head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-K43RS7LS');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9H5TZDVQ98"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-9H5TZDVQ98');
+</script>
+
