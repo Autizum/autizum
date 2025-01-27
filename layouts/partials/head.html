@@ -19,6 +19,7 @@
     href="/assets/img/favicon.png"
   />
 
+ 
   <!-- CSS here -->
   <link rel="stylesheet" href="/assets/css/preloader.css" />
   <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
@@ -39,4 +40,13 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-K43RS7LS');</script>
   <!-- End Google Tag Manager -->
+
+    <!-- advancedstructured data json-->
+
+  <script type="application/ld+json">
+    {{ readFile "data/advancedstrcutured.json" | safeHTML }}
+    </script>
+  <!-- END advancedstructured data json-->
+
+
 </head>

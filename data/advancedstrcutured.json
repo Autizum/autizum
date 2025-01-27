@@ -1,0 +1,90 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Autizum",
+    "url": "https://autizum.com",
+    "logo": "https://autizum.com/logo.png",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+1-919-910-4058",
+      "contactType": "Customer Service",
+      "email": "intake@autizum.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "5448 Apex Peakway #300",
+        "addressLocality": "Apex",
+        "addressRegion": "NC",
+        "postalCode": "27502",
+        "addressCountry": "US"
+      }
+    },
+    "sameAs": [
+      "https://www.facebook.com/autizum",
+      "https://www.twitter.com/autizum",
+      "https://www.linkedin.com/company/autizum"
+    ],
+    "department": [
+      {
+        "@type": "Mental Health Services",
+        "name": "ABA Therapy",
+        "url": "https://autizum.com/services/aba-therapy",
+        "description": "Personalized Applied Behavior Analysis therapy to enhance children's development and improve their quality of life."
+      },
+      {
+        "@type": "Mental Health Services",
+        "name": "Advocacy for 504 & Parental Rights",
+        "url": "https://autizum.com/services/advocacy-504-parental-rights",
+        "description": "Support and advocacy for parents to understand and exercise their rights under Section 504."
+      },
+      {
+        "@type": "Mental Health Services",
+        "name": "Parent Training",
+        "url": "https://autizum.com/services/parent-training",
+        "description": "Training programs to empower parents with strategies to support their child's development."
+      },
+      {
+        "@type": "Mental Health Services",
+        "name": "School Readiness / Special Education",
+        "url": "https://autizum.com/services/school-readiness-special-education",
+        "description": "Services to prepare children for school environments and support their special education needs."
+      },
+      {
+        "@type": "Mental Health Services",
+        "name": "Speech Development / Verbal Behavior Development",
+        "url": "https://autizum.com/services/speech-development-verbal-behavior",
+        "description": "Programs focused on enhancing speech and verbal behavior skills in children."
+      }
+    ],
+    "founder": {
+      "@type": "Person",
+      "name": "Florina David Colar",
+      "jobTitle": "Founder & Lead Behavior Analyst",
+      "description": "Over 14 years of experience helping adults, teens, and families in crisis. Licensed in both NC and VA with additional certification in advocacy for special education as well as VA in behavior analysis by the VA Board of Medicine."
+    },
+    "employee": [
+      {
+        "@type": "Person",
+        "name": "Briana Grappo",
+        "image": "https://autizum.com/images/team-1.jpg",
+        "jobTitle": "M.A, MBA, BCBA",
+        "description": "Briana is an MBA and Board Certified Behavior Analyst devoted to creating positive, lasting change for children and families seeking Applied Behavior Analysis therapy. With deep expertise in autism support, education administration, and mental health, she has helped countless families navigate the unique challenges of autism.",
+        "url": "https://autizum.com/clinical/#briana-grappo"
+      },
+      {
+        "@type": "Person",
+        "name": "Joanne Valcin-Dickson",
+        "image": "https://autizum.com/images/team-2.jpg",
+        "jobTitle": "M.A, NC BCaBA",
+        "description": "With a Master's degree in Behavior Analysis Practice and a concentration in Gerontology, Joanne brings a wealth of knowledge to Applied Behavior Analysis. She is dedicated to supporting children and adolescents with diverse needs, particularly those facing challenges related to memory impairment and behavioral difficulties.",
+        "url": "https://autizum.com/clinical/#joanne-valcin-dickson"
+      },
+      {
+        "@type": "Person",
+        "name": "Eman Abushabab",
+        "image": "https://autizum.com/images/team-3.jpg",
+        "jobTitle": "M.S., BCBA, QBA",
+        "description": "Eman is a bilingual (Arabic/English) Board Certified Behavior Analyst and Qualified Behavior Analyst with international certification. She holds a Master’s in Behavior Analysis and offers autism spectrum disorder interventions, including ABA, early intervention, FBA/BIP creation, social skills, and parent training.",
+        "url": "https://autizum.com/clinical/#eman-abushabab"
+      }
+    ]
+  }
