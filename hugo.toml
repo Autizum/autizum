@@ -13,4 +13,8 @@ params.mobile = '(919)-910-4058'
 [sitemap]
   filename = "sitemap.xml"  
   changefreq = "daily"        
-  
+
+[minify]
+  disableXML = true
+  minifyCSS = true
+  minifyJS = true
