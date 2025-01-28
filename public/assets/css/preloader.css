@@ -12,9 +12,9 @@
 
 	z-index: 99999999999999999;
 
-	margin-top: 0px;
+	margin-top: 0;
 
-	top: 0px;
+	top: 0;
 
 }
 
@@ -84,9 +84,9 @@
 
 	animation: object_two 1.5s infinite;
 
-	-webkit-animation-delay: 0.25s; 
+	-webkit-animation-delay: .25s; 
 
-    animation-delay: 0.25s;
+    animation-delay: .25s;
 
 	}
 
@@ -96,9 +96,9 @@
 
 	animation: object_three 1.5s infinite;
 
-	-webkit-animation-delay: 0.5s;
+	-webkit-animation-delay: .5s;
 
-    animation-delay: 0.5s;
+    animation-delay: .5s;
 
 	
 
@@ -108,7 +108,7 @@
 
 
 
-@-webkit-keyframes object_one {
+@-webkit-keyframes object_one{
 
 75% { -webkit-transform: scale(0); }
 
@@ -116,7 +116,7 @@
 
 
 
-@keyframes object_one {
+@keyframes object_one{
 
 
 
@@ -142,7 +142,7 @@
 
 
 
-@-webkit-keyframes object_two {
+@-webkit-keyframes object_two{
 
  
 
@@ -158,7 +158,7 @@
 
 
 
-@keyframes object_two {
+@keyframes object_two{
 
   75% { 
 
@@ -174,7 +174,7 @@
 
 
 
-@-webkit-keyframes object_three {
+@-webkit-keyframes object_three{
 
 
 
@@ -186,7 +186,7 @@
 
 
 
-@keyframes object_three {
+@keyframes object_three{
 
 
 
