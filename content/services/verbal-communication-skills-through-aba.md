@@ -5,7 +5,7 @@ description: Our programs emphasize for autism communication, autism tools, and 
 
 ### Verbal Behavior Development at Autizum
 
-At Autizum, we understand the critical role of speech and verbal behavior in a child's overall **communication abilities**. Our targeted interventions, grounded in **Applied Behavior Analysis (ABA)** principles, aim to enhance children's communication effectiveness. We focus on improving **language skills**, articulation, and promoting meaningful verbal interactions.
+At Autizum, we understand the critical role of speech and verbal behavior in a child's overall **communication abilities**. Our targeted interventions, grounded in [**Applied Behavior Analysis (ABA)**](/services/aba-therapy) principles, aim to enhance children's communication effectiveness. We focus on improving **language skills**, articulation, and promoting meaningful verbal interactions.
 
 ### Our approach to verbal behavior development includes:
 

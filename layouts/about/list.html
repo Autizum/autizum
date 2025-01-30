@@ -49,7 +49,7 @@
             </div>
 
             <p>
-              {{.Params.aboutArea.description}}
+              {{.Params.aboutArea.description | markdownify}}
             </p>
 
             <div class="about__info-2 d-sm-flex mb-60">
@@ -57,7 +57,7 @@
                 <h2>{{.Params.aboutArea.boxTitle}}</h2>
               </div>
               <p>
-                {{.Params.aboutArea.boxDescription}}
+                {{.Params.aboutArea.boxDescription | markdownify}}
               </p>
             </div>
             <div class="about-bottom d-sm-flex">
@@ -81,20 +81,20 @@
         <div class="col-xl-12 col-lg-9">
             <div class="section__title mb-65 pt-10">
                 <h2 class="mb-20">{{.Params.aboutArea.topic1}}</h2>
-                <p>{{.Params.aboutArea.topic1detail}}</p>
+                <p>{{.Params.aboutArea.topic1detail | markdownify}}</p>
                 <h2 class="mb-20">{{.Params.aboutArea.topic2}}</h2>
-                <p>{{.Params.aboutArea.topic2detail}}</p>
+                <p>{{.Params.aboutArea.topic2detail | markdownify}}</p>
                 <h2 class="mb-20">{{.Params.aboutArea.topic3}}</h2>
-                <p>{{.Params.aboutArea.topic3detail}}</p>
+                <p>{{.Params.aboutArea.topic3detail | markdownify}}</p>
                 <h3 class="mb-20">{{.Params.aboutArea.topic4}}</h3>
-                <p>{{.Params.aboutArea.topic4detail}}</p>
+                <p>{{.Params.aboutArea.topic4detail | markdownify}}</p>
                 <h3 class="mb-20">{{.Params.aboutArea.topic5}}</h3>
-                <p>{{.Params.aboutArea.topic5detail}}</p>
+                <p>{{.Params.aboutArea.topic5detail | markdownify}}</p>
                 <h3 class="mb-20">{{.Params.aboutArea.topic6}}</h3>
-                <p>{{.Params.aboutArea.topic6detail}}</p>
+                <p>{{.Params.aboutArea.topic6detail | markdownify}}</p>
                 <h3 class="mb-20">{{.Params.aboutArea.topic7}}</h3>
-                <p>{{.Params.aboutArea.topic7detail}}</p>
-                <p>{{.Params.aboutArea.topic71detail}}</p>
+                <p>{{.Params.aboutArea.topic7detail | markdownify}}</p>
+                <p>{{.Params.aboutArea.topic71detail | markdownify}}</p>
                 <h2 class="mb-20">{{.Params.aboutArea.topic8}}</h2>
                 <div class="why_list1 pt-20">
                             <ul>

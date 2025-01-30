@@ -1,17 +1,17 @@
 ---
-title: Parent Training
+title: Parent Counselling
 description: "Our autism coaching services equip parents with essential tools and techniques to effectively support their child’s development."
 ---
 Parenting a child with special needs comes with unique challenges that can feel overwhelming. At Autizum, we offer parent counseling services to provide you with the tools, guidance, and emotional support you need to navigate your child’s development and education with confidence.Whether you are looking for **autism resources for parents**, strategies for **behavioral observation of students in schools**, or ways to integrate **autism occupational therapy** at home, our comprehensive approach ensures you receive the best support.
 
 ### Our Approach
-Our **parent counseling** services focus on empowering you with practical strategies based on **Applied Behavior Analysis (ABA)**, tailored to your child’s specific needs. Whether you're addressing b**ehavioral issues, communication difficulties**, or **daily living skills**, we equip you with the knowledge to create a structured and nurturing home environment.
+Our **parent counseling** services focus on empowering you with practical strategies based on [**Applied Behavior Analysis (ABA)**](/services/aba-therapy), tailored to your child’s specific needs. Whether you're addressing **behavioral issues, communication difficulties**, or **daily living skills**, we equip you with the knowledge to create a structured and nurturing home environment.
 
 ### How We Help
 
 **Behavioral Management:** Learn effective techniques to **manage challenging behaviors**, foster positive behaviors, and reinforce good habits that promote independence and social engagement.
 
-**Communication Skills:** Understand how to improve communication with your child **verbal behavior** techniques and support them in developing language and social interaction skills.
+**Communication Skills:** Understand how to improve communication with your child [**verbal behavior techniques**](/services/verbal-communication-skills-through-aba) and support them in developing language and social interaction skills.
 
 **Skill Acquisitions:** Our team of seasoned behavior analysts employs a range of validated tools to develop individualized plans that accommodate each child's unique needs and learning styles. Through systematic instruction and **positive reinforcement**, we guide children toward acquiring essential skills that **autism inclusion** and independence.
 

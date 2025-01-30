@@ -300,6 +300,11 @@ p {
 /*--
     - color
 -----------------------------------------*/
+
+a{
+  color:blue;
+}
+
 .text-white h1,
 .text-white h2,
 .text-white h3,

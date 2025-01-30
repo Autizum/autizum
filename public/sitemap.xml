@@ -29,7 +29,7 @@
     <loc>http://localhost:1313/peers/</loc>
     <changefreq>daily</changefreq>
   </url><url>
-    <loc>http://localhost:1313/services/school-readiness-and-aba/</loc>
+    <loc>http://localhost:1313/services/school-readiness-and-aba-therapy/</loc>
     <changefreq>daily</changefreq>
   </url><url>
     <loc>http://localhost:1313/services/</loc>

@@ -10,7 +10,7 @@ Every child is unique, so our program starts with an assessment to create a pers
 
 **Communication Skills**: Enhancing expressive and receptive language through structured teaching and naturalistic strategies.
 
-**Social Skills**: Building **peer** interaction, perspective-taking, and turn-taking using evidence-based methods.
+**Social Skills**: Building [**peer**](/peers/) interaction, perspective-taking, and turn-taking using evidence-based methods.
 
 **Behavioral Readiness**: Teaching self-regulation, compliance with routines, and appropriate classroom behavior.
 Pre-Academic Skills: Introducing foundational skills like matching, sorting, and following instructions to prepare for classroom learning.
@@ -31,7 +31,7 @@ Our program is grounded in the principles of Applied Behavior Analysis (ABA) and
 
 **Behavior Reduction**: We use evidence-based behavior reduction strategies to help children reduce challenging behaviors.
 
-**Parent Training**: We provide parent training to help parents implement A**BA strategies at home**.
+**Parent Training**: We provide [Parent training](/services/parent-counselling/) to help parents implement A**BA strategies at home**.
 
 
 ## How We Can Help
