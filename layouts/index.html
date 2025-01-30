@@ -124,7 +124,7 @@
                   <div class="features__content">
                     <h2>{{.Params.card1.title}}</h2>
                     <p>
-                      {{.Params.card1.description}}
+                      {{.Params.card1.description | markdownify}}
                     </p>
                   </div>
                 </div>
@@ -139,7 +139,7 @@
                   <div class="features__content">
                     <h2>{{.Params.card2.title}}</h2>
                     <p>
-                      {{.Params.card2.description}}
+                      {{.Params.card2.description | markdownify}}
                     </p>
                   </div>
                 </div>
@@ -154,7 +154,7 @@
                   <div class="features__content">
                     <h2>{{.Params.card3.title}}</h2>
                     <p>
-                      {{.Params.card3.description}}
+                      {{.Params.card3.description | markdownify}}
                     </p>
                   </div>
                 </div>

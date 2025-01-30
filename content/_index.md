@@ -16,10 +16,10 @@ card1:
   description: Through expert guidance and personalized care, we enhance children's development and improve their quality of life. We provide autism resources for parents.
 card2:
   title: " Dedicated Therapist"
-  description: Our skilled therapists, BCBAs and RBTs,provide individualized autism occupational therapy and speech therapy for autism, building essential communication and social skills for your child.
+  description: Our skilled therapists, BCBAs and RBTs,provide individualized autism occupational therapy and speech therapy for autism, building essential communication and [social skill development for children](/services/verbal-communication-skills-through-aba/) for your child.
 card3:
   title: "Patient Support "
-  description: We offer continuous support, ensuring progress beyond therapy sessions. Our services include parent counseling, autism emotional regulation techniques, and guidance on autism and learning disabilities, empowering children and families.
+  description: We offer continuous support, ensuring progress beyond therapy sessions. Our services include [Parent counseling](/services/parent-counselling), autism emotional regulation techniques, and guidance on autism and learning disabilities, empowering children and families.
 imageCard:
   title: "20 "
   description: years of Professional Experience
