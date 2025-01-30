@@ -13,13 +13,13 @@ slider3:
   image: assets/img/slider/slider-02.jpg
 card1:
   title: Satisfied Services
-  description: Through expert guidance and personalized care, we enhance children's development and improve their quality of life.
+  description: Through expert guidance and personalized care, we enhance children's development and improve their quality of life. We provide autism resources for parents.
 card2:
   title: " Dedicated Therapist"
-  description: Our skilled therapists, BCBAs and RBTs, provide individualized ABA therapy, building essential communication and social skills for your child
+  description: Our skilled therapists, BCBAs and RBTs,provide individualized autism occupational therapy and speech therapy for autism, building essential communication and social skills for your child.
 card3:
   title: "Patient Support "
-  description: We offer continuous support ensuring progress beyond therapy sessions, empowering children and families.
+  description: We offer continuous support, ensuring progress beyond therapy sessions. Our services include parent counseling, autism emotional regulation techniques, and guidance on autism and learning disabilities, empowering children and families.
 imageCard:
   title: "20 "
   description: years of Professional Experience

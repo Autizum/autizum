@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Autizum: ABA Therapy &amp; Parent Support</title>
+    <title>Autizum: ABA Therapy and Parent Support</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on Autizum: ABA Therapy &amp; Parent Support</description>
+    <description>Recent content on Autizum: ABA Therapy and Parent Support</description>
     <generator>Hugo</generator>
     <language>en</language>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
@@ -12,20 +12,20 @@
       <link>http://localhost:1313/services/aba-therapy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/services/aba-therapy/</guid>
-      <description>Applied Behavior Analysis (ABA) therapy is a proven, evidence-based approach designed to support children with autism and other developmental delays in learning essential life skills. By focusing on positive reinforcement and structured teaching, ABA helps children improve communication, social interactions, and behavior regulation. Each plan is customized to the child&amp;rsquo;s unique needs, ensuring targeted progress and long-term success.&#xA;How Autizum Supports Children As Autizum , we ensure that children with special needs receive the educational accommodations and services they deserve.</description>
+      <description>Applied Behavior Analysis (ABA) therapy is a proven, evidence-based approach designed to support children with autism and other developmental delays in learning essential life skills. By focusing on positive reinforcement and structured teaching, ABA helps children improve communication, social interactions, and behavior regulation. Each plan is customized to the child&amp;rsquo;s unique needs, ensuring targeted progress and long-term success.&#xA;How Autizum Supports Children As Autizum, we ensure that children with special needs receive the educational accommodations and services they deserve.</description>
     </item>
     <item>
       <title>Parent Training</title>
       <link>http://localhost:1313/services/parent-counselling/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/services/parent-counselling/</guid>
-      <description>Parenting a child with special needs comes with unique challenges that can feel overwhelming. At Autizum, we offer parent counseling services to provide you with the tools, guidance, and emotional support you need to navigate your child’s development and education with confidence.&#xA;Our Approach Our parent counseling services focus on empowering you with practical strategies based on Applied Behavior Analysis (ABA), tailored to your child’s specific needs. Whether you&amp;rsquo;re addressing behavioral issues, communication difficulties, or daily living skills, we equip you with the knowledge to create a structured and nurturing home environment.</description>
+      <description>Parenting a child with special needs comes with unique challenges that can feel overwhelming. At Autizum, we offer parent counseling services to provide you with the tools, guidance, and emotional support you need to navigate your child’s development and education with confidence.Whether you are looking for autism resources for parents, strategies for behavioral observation of students in schools, or ways to integrate autism occupational therapy at home, our comprehensive approach ensures you receive the best support.</description>
     </item>
     <item>
       <title>School Readiness and ABA Service</title>
-      <link>http://localhost:1313/services/school-readiness-and-aba/</link>
+      <link>http://localhost:1313/services/school-readiness-and-aba-therapy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/services/school-readiness-and-aba/</guid>
+      <guid>http://localhost:1313/services/school-readiness-and-aba-therapy/</guid>
       <description>Autizum is committed to supporting children with special needs in their educational journey. We offer a range of services to help children develop the skills and behaviors necessary for success in school.&#xA;School Readiness Our comprehensive School Readiness Program is designed to help children build the skills they need to transition successfully into school environments. By focusing on critical developmental areas, we prepare children to thrive in academic and social settings.</description>
     </item>
     <item>
