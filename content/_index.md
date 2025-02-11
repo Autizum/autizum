@@ -19,7 +19,7 @@ card2:
   description: Our skilled therapists, BCBAs and RBTs,provide individualized autism occupational therapy and speech therapy for autism, building essential communication and [social skill development for children](/services/verbal-communication-skills-through-aba/) for your child.
 card3:
   title: "Patient Support "
-  description: We offer continuous support, ensuring progress beyond therapy sessions. Our services include [Parent counseling](/services/parent-counselling), autism emotional regulation techniques, and guidance on autism and learning disabilities, empowering children and families.
+  description: We offer continuous support, ensuring progress beyond therapy sessions. Our services include [Parent counseling](/services/parent-training), autism emotional regulation techniques, and guidance on autism and learning disabilities, empowering children and families.
 imageCard:
   title: "20 "
   description: years of Professional Experience

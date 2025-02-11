@@ -31,7 +31,7 @@ Our program is grounded in the principles of Applied Behavior Analysis (ABA) and
 
 **Behavior Reduction**: We use evidence-based behavior reduction strategies to help children reduce challenging behaviors.
 
-**Parent Training**: We provide [Parent training](/services/parent-counselling/) to help parents implement A**BA strategies at home**.
+**Parent Training**: We provide [Parent training](/services/parent-training/) to help parents implement A**BA strategies at home**.
 
 
 ## How We Can Help
