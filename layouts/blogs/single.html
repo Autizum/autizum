@@ -1,0 +1,119 @@
+{{ define "main" }}
+
+<!-- Page Title Area Start -->
+<section
+  class="page__title p-relative pt-200 pb-200"
+  data-background="/assets/img/page-title/page-title-3.jpg"
+>
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-12 col-lg-12 col-md-12">
+        <div class="page__title-inner text-center">
+          <div class="page__title-breadcrumb">
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="/">Home</a></li>
+                <li class="breadcrumb-item"><a href="/blogs">Blog</a></li>
+                <li class="breadcrumb-item active" aria-current="page">
+                  {{ .Title }}
+                </li>
+              </ol>
+            </nav>
+          </div>
+          <h1>{{ .Title }}</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Page Title Area End -->
+
+<!-- Blog Area Start -->
+<section class="blog__area pt-120 pb-80">
+  <div class="container">
+    <div class="row">
+      <!-- Blog Content Start -->
+      <div class="col-xl-8 col-lg-8">
+        <div class="blog_details-wrapper">
+          <article class="postbox mb-40">
+            {{ if .Params.image }}
+            <div class="postbox__thumb w-img">
+              <a href=""
+                ><img src="{{ .Params.image }}" alt="{{ .Title }}"
+              /></a>
+            </div>
+            {{ end }}
+
+            <div class="postbox__content postbox__content-2">
+              <h3 class="postbox__title postbox__title-2 mb-20">
+                {{ .Title }}
+              </h3>
+
+              <div class="postbox__meta mb-15">
+                <span><i class="fas fa-calendar-alt"></i> {{ .Date.Format "January 2, 2006" }}</span>
+                <span><i class="fas fa-user"></i> By {{ .Params.author | default "Admin" }}</span>
+              </div>
+
+              <div class="postbox__text mb-25">{{ .Content }}</div>
+            </div>
+          </article>
+        </div>
+      </div>
+      <!-- Blog Content End -->
+
+      <!-- Sidebar Start -->
+      <div class="col-xl-4 col-lg-4">
+        <div class="blog__sidebar-wrapper">
+          <!-- About Me Widget -->
+          <div class="widget sidebar-wrapper mb-40">
+            <div class="sidebar-title mb-25">
+              <h3>About Me</h3>
+            </div>
+            <div class="widget__about text-center">
+              <img
+                src="/assets/img/blog/about/Florina-david.png"
+                alt="About Me"
+              />
+              <h4>Florina David Colar</h4>
+              <p>
+                M.A., M.S., BCBA, LBA NC, VA and TX Peers® Certified Provider
+              </p>
+            </div>
+          </div>
+
+          <!-- Social Profile Widget -->
+          <div class="widget sidebar-wrapper mb-40">
+            <div class="sidebar-title mb-25">
+              <h3>Social Profile</h3>
+            </div>
+            <div class="social-profile">
+              <a href="https://www.linkedin.com/company/autizum/">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Recent Blogs Widget -->
+          <div class="widget sidebar-wrapper mb-40">
+            <div class="sidebar-title mb-25">
+              <h3>Recent Posts</h3>
+            </div>
+            <ul>
+              {{ $blogsSection := .Site.GetPage "section" "blogs" }} {{
+              $blogPosts := where $blogsSection.RegularPages "Draft" "!=" true
+              }} {{ range first 2 $blogPosts }}
+              <li>
+                <a href="{{ .RelPermalink }}">-> {{ .Title }}</a>
+              </li>
+              {{ end }}
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- Sidebar End -->
+    </div>
+  </div>
+</section>
+<!-- Blog Area End -->
+
+{{ end }}

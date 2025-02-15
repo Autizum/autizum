@@ -1,0 +1,7 @@
+{{ $blogsSection := .Site.GetPage "section" "blogs" }}
+{{ $blogs := where $blogsSection.RegularPages "Draft" "!=" true }}  <!-- Filters out drafts -->
+{{ range first 2 $blogs }}  <!-- Limits to 2 blog posts -->
+  {{ if not .IsSection }}
+    {{ .Render "blogs" }}
+  {{ end }}
+{{ end }}

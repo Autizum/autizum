@@ -22,6 +22,8 @@ nav:
         url: "/leadership"
       - name: "Clinical Team"
         url: "/clinical"
+  
+  
 
   - name: "Services"
     url: "/services"
@@ -39,6 +41,19 @@ nav:
         url: "/services/school-readiness-and-aba-therapy/"
       - name: "Verbal Communication Skills through ABA"
         url: "/services/verbal-communication-skills-through-aba/"
+
+  - name: "Blogs"
+    url: "/blogs"
+
+    dropdown:
+      # - name: "Autism myths and facts"
+      #   url: "/blogs/autism-myths-and-facts/"
+      # - name: "Autism sign in adults"
+      #   url: "/blogs/autism-sign-in-adults/"
+      - name: "Autism spectrum disorfder"
+        url: "/blogs/autism-spectrum-disorder/"
+      - name: "Early intervention autism"
+        url: "/blogs/importance-of-early-intervention-autism/"
 
   - name: "Contact"
     url: "/contact"
