@@ -13,6 +13,7 @@ Did you know that early intervention can significantly improve speech, behavior,
 
 ## Why Early Intervention Matters?
 Research shows that starting autism therapy before age 3 can lead to:
+
 ✔️ Improved language and communication skills  
 ✔️ Enhanced cognitive and social abilities  
 ✔️ Better adaptive behavior and emotional regulation  
