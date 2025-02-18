@@ -32,3 +32,4 @@ At Autizum, we offer:
 ## Conclusion
 Recognizing autism in adults is essential for providing the right support. Whether you’re newly diagnosed or suspect you have ASD, Autizum is here to help.
 
+---

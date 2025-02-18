@@ -40,3 +40,5 @@ At Autizum, we encourage early diagnosis as it leads to better intervention and 
 
 ## Conclusion
 Raising autism awareness is crucial in promoting inclusion and support for individuals with ASD. Whether you’re a parent, caregiver, or educator, knowing the signs of autism can help in providing early intervention. Stay informed with Autizum—your trusted source for autism education and support.
+
+---
