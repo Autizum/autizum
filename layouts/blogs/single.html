@@ -45,10 +45,6 @@
             {{ end }}
 
             <div class="postbox__content postbox__content-2">
-              <h3 class="postbox__title postbox__title-2 mb-20">
-                {{ .Title }}
-              </h3>
-
               <div class="postbox__meta mb-15">
                 <span><i class="fas fa-calendar-alt"></i> {{ .Date.Format "January 2, 2006" }}</span>
                 <span><i class="fas fa-user"></i> By {{ .Params.author | default "Admin" }}</span>
