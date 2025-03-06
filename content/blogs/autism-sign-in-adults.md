@@ -1,9 +1,9 @@
 ---
 title: "Autism in Adults – Signs, Challenges & Support by Autizum"
-date: 2024-02-14
+date: 2025-03-06
 description: "autism is often detected in childhood, many high-functioning autistic adults go undiagnosed for years. At Autizum, we aim to raise awareness about adult autism, its challenges, and available support systems."
 image: "/assets/img/blog/blog-big-2.jpg"
-draft: true
+draft: false
 ---
 
 # Autism in Adults – Signs, Challenges & Support by Autizum

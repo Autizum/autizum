@@ -1,9 +1,9 @@
 ---
 title: "Autism Myths & Facts – Debunking Misconceptions with Autizum"
-date: 2024-02-14
+date: 2025-03-06
 description: "Autism Spectrum Disorder (ASD) is one of the most misunderstood conditions in the world. Despite increased awareness, many autism myths persist, leading to stigma and misinformation."
 image: "/assets/img/blog/blog-big-1.jpg"
-draft: true
+draft: false
 ---
 
 # Autism Myths & Facts – Debunking Misconceptions with Autizum

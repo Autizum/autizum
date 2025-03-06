@@ -1,6 +1,6 @@
 ---
 title: "Understanding Autism Spectrum Disorder (ASD) – Signs, Causes & Diagnosis"
-date: 2024-02-14
+date: 2025-02-14
 description: "Autism Spectrum Disorder (ASD) is a neurodevelopmental condition that affects millions of people worldwide. "
 image: "/assets/img/blog/blog-big-3.jpg"
 draft: false

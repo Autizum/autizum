@@ -1,6 +1,6 @@
 ---
 title: "The Importance of Early Intervention in Autism – A Guide by Autizum"
-date: 2024-02-14
+date: 2025-02-14
 description: "we emphasize the importance of early autism diagnosis and therapies to help children develop essential life skills"
 image: "/assets/img/blog/blog-3.jpg"
 draft: false
