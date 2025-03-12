@@ -28,25 +28,57 @@
         "@type": "MedicalBusiness",
         "name": "ABA Therapy",
         "url": "https://autizum.com/services/aba-therapy",
-        "description": "Personalized Applied Behavior Analysis therapy to enhance children's development and improve their quality of life."
+        "description": "Personalized Applied Behavior Analysis therapy to enhance children's development and improve their quality of life.",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "5448 Apex Peakway #300",
+          "addressLocality": "Apex",
+          "addressRegion": "NC",
+          "postalCode": "27502",
+          "addressCountry": "US"
+          }
       },
       {
         "@type": "EducationalOrganization",
         "name": "Parent Training",
         "url": "https://autizum.com/services/parent-training",
-        "description": "Training programs to empower parents with strategies to support their child's development."
+        "description": "Training programs to empower parents with strategies to support their child's development.",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "5448 Apex Peakway #300",
+          "addressLocality": "Apex",
+          "addressRegion": "NC",
+          "postalCode": "27502",
+          "addressCountry": "US"
+          }
       },
       {
         "@type": "EducationalOrganization",
         "name": "School Readiness / Special Education",
         "url": "https://autizum.com/services/school-readiness-and-aba-therapy/",
-        "description": "Services to prepare children for school environments and support their special education needs."
+        "description": "Services to prepare children for school environments and support their special education needs.",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "5448 Apex Peakway #300",
+          "addressLocality": "Apex",
+          "addressRegion": "NC",
+          "postalCode": "27502",
+          "addressCountry": "US"
+          }
       },
       {
         "@type": "MedicalBusiness",
         "name": "Speech Development / Verbal Behavior Development",
         "url": "https://autizum.com/services/verbal-communication-skills-through-aba",
-        "description": "Programs focused on enhancing speech and verbal behavior skills in children."
+        "description": "Programs focused on enhancing speech and verbal behavior skills in children.",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "5448 Apex Peakway #300",
+          "addressLocality": "Apex",
+          "addressRegion": "NC",
+          "postalCode": "27502",
+          "addressCountry": "US"
+          }
       }
     ],
     "founder": {
