@@ -25,34 +25,84 @@
     ],
     "department": [
       {
-        "@type": "Mental Health Services",
+        "@type": "MedicalBusiness",
         "name": "ABA Therapy",
         "url": "https://autizum.com/services/aba-therapy",
-        "description": "Personalized Applied Behavior Analysis therapy to enhance children's development and improve their quality of life."
+        "description": "Personalized Applied Behavior Analysis therapy to enhance children's development and improve their quality of life.",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+1-919-910-4058",
+          "contactType": "Customer Service",
+          "email": "intake@autizum.com",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "5448 Apex Peakway #300",
+            "addressLocality": "Apex",
+            "addressRegion": "NC",
+            "postalCode": "27502",
+            "addressCountry": "US"
+          }
+        }
       },
       {
-        "@type": "Mental Health Services",
-        "name": "Advocacy for 504 & Parental Rights",
-        "url": "https://autizum.com/services/advocacy-504-parental-rights",
-        "description": "Support and advocacy for parents to understand and exercise their rights under Section 504."
-      },
-      {
-        "@type": "Mental Health Services",
+        "@type": "EducationalOrganization",
         "name": "Parent Training",
         "url": "https://autizum.com/services/parent-training",
-        "description": "Training programs to empower parents with strategies to support their child's development."
+        "description": "Training programs to empower parents with strategies to support their child's development.",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+1-919-910-4058",
+          "contactType": "Customer Service",
+          "email": "intake@autizum.com",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "5448 Apex Peakway #300",
+            "addressLocality": "Apex",
+            "addressRegion": "NC",
+            "postalCode": "27502",
+            "addressCountry": "US"
+          }
+        }
       },
       {
-        "@type": "Mental Health Services",
+        "@type": "EducationalOrganization",
         "name": "School Readiness / Special Education",
-        "url": "https://autizum.com/services/school-readiness-special-education",
-        "description": "Services to prepare children for school environments and support their special education needs."
+        "url": "https://autizum.com/services/school-readiness-and-aba-therapy/",
+        "description": "Services to prepare children for school environments and support their special education needs.",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+1-919-910-4058",
+          "contactType": "Customer Service",
+          "email": "intake@autizum.com",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "5448 Apex Peakway #300",
+            "addressLocality": "Apex",
+            "addressRegion": "NC",
+            "postalCode": "27502",
+            "addressCountry": "US"
+          }
+        }
       },
       {
-        "@type": "Mental Health Services",
+        "@type": "MedicalBusiness",
         "name": "Speech Development / Verbal Behavior Development",
-        "url": "https://autizum.com/services/speech-development-verbal-behavior",
-        "description": "Programs focused on enhancing speech and verbal behavior skills in children."
+        "url": "https://autizum.com/services/verbal-communication-skills-through-aba",
+        "description": "Programs focused on enhancing speech and verbal behavior skills in children.",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+1-919-910-4058",
+          "contactType": "Customer Service",
+          "email": "intake@autizum.com",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "5448 Apex Peakway #300",
+            "addressLocality": "Apex",
+            "addressRegion": "NC",
+            "postalCode": "27502",
+            "addressCountry": "US"
+          }
+        }
       }
     ],
     "founder": {
