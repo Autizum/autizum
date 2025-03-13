@@ -1,6 +1,6 @@
 
 baseurl = 'https://autizum.com/'
-title = 'ABA Therapy for Autism | Parent Support & Counseling | Autizum'
+title = 'ABA Therapy for Autism | Parent Support & Counseling'
 params.description = 'Discover expert ABA therapy for autism at Autizum. Get parent support, counseling, and advocacy services to empower families and children with autism.'
 params.website = 'https://autizum.com/'
 params.experience = '15'
