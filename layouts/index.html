@@ -18,7 +18,7 @@
                 {{.Params.slider1.text}}
               </h2>
               <div class="button-container">
-                <a href="/contact" class="join-us-btn">Get Started</a>
+                <a href="/contact" class="join-us-btn" aria-label="get started">Get Started</a>
             </div>
             </div>
           </div>
@@ -41,7 +41,7 @@
               </h2>
 
               <div class="button-container">
-                <a href="/contact" class="join-us-btn">Get Started</a>
+                <a href="/contact" class="join-us-btn" aria-label="get started">Get Started</a>
             </div>
             </div>
           </div>
@@ -64,7 +64,7 @@
               </h2>
 
               <div class="button-container">
-                <a href="/contact" class="join-us-btn">Get Started</a>
+                <a href="/contact" class="join-us-btn" aria-label="get started">Get Started</a>
             </div>
             </div>
           </div>
@@ -82,7 +82,7 @@
 <section class="about__area-3 mb-120 box-105 pt-380 p-relative white-bg">
   <div
     class="about__bg-img about__bg-img-3 p-absolute border-radius-8"
-    data-background="{{.Params.imageCard.image}}"
+    data-background="{{.Params.imageCard.image}}" alt="service"
   >
     <div class="about__info-experience-3 p-absolute">
       <h2>{{.Params.imageCard.title}}</h2>
@@ -181,7 +181,7 @@
             <h3 class= 'text-center'>Autizum: A Clinician-Owned and Operated Haven for Autism Care</h3>
             <p class="pt-30">At Autizum, we are dedicated to providing compassionate, research-driven therapy for children with autism. As a clinician-owned and operated organization, we understand the importance of delivering high-quality, individualized care that makes a lasting impact.
 </p><p>
-        <a href="{{ ref . "clinical.md" }}">Our Team</a> of experienced <b>Board-Certified Behavior Analysts (BCBAs)</b> and <b>Registered Behavior Technicians (RBTs)</b> collaborates closely with families to design customized treatment plans that focus on enhancing <b>autism learning, <a href="{{ ref . "services/verbal-communication-skills-through-aba.md" }}">verbal behavior</a></b> social, communication, and <b>daily living skills</b>. We believe in empowering children to overcome challenges, build confidence, and develop the tools they need to thrive in their everyday lives.
+        <a href="{{ ref . "clinical.md" }}" aria-label="our team">Our Team</a> of experienced <b>Board-Certified Behavior Analysts (BCBAs)</b> and <b>Registered Behavior Technicians (RBTs)</b> collaborates closely with families to design customized treatment plans that focus on enhancing <b>autism learning, <a href="{{ ref . "services/verbal-communication-skills-through-aba.md" }}" aria-label="verbal behavior">verbal behavior</a></b> social, communication, and <b>daily living skills</b>. We believe in empowering children to overcome challenges, build confidence, and develop the tools they need to thrive in their everyday lives.
             </p><p>
               Our clinician-owned and operated model allows us to have a deep understanding of the unique needs of children with autism and their families. We are able to provide personalized care that is tailored to <b> educational apps for autism,</b> and <b>autism tips for parents</b> to ensure well-rounded development.
             </p><p>
@@ -279,7 +279,7 @@
             <h3>Autizum</h3>
             <p class="pt-30">Autizum is an internationally recognized team of experienced autism therapy at home professionals, including BCBAs and RBTs, committed to helping children with autism reach their full potential.
 
-              We integrate natural treatments for autism, supplements for autism, and research-driven approaches to enhance children's well-being. <a href="{{ ref . "services" }}" style="color: blue;">Our Services</a> also address autism environmental factors and provide autism treatment centers that cater to specific needs.
+              We integrate natural treatments for autism, supplements for autism, and research-driven approaches to enhance children's well-being. <a href="{{ ref . "services" }}" style="color: blue;" aria-label="our services">Our Services</a> also address autism environmental factors and provide autism treatment centers that cater to specific needs.
               
               By choosing Autizum, you're partnering with experts in behavioral observation of students in schools, early signs of autism in toddlers, and signs of autism in boys and girls. We ensure that every child receives specialized interventions such as best therapies for autism, autism testing for adults Austim, and structured support in gateway behavior.
               
@@ -297,7 +297,7 @@
 
 <section
   class="contact-area contact__area-3 pt-120"
-  data-background="assets/img/contact/contact-bg.jpg"
+  data-background="assets/img/contact/contact-bg.jpg" alt="contact-bg"
 >
   <div class="container-fluid p-0">
     <div class="row no-gutters">
@@ -327,6 +327,8 @@
                     class="contact__input contact__input-3"
                     type="text"
                     placeholder="Your Name"
+                    aria-label="name"
+
                   />
                 </div>
                 <div class="col-xl-6">
@@ -335,6 +337,7 @@
                     class="contact__input contact__input-3"
                     type="email"
                     placeholder="E-mail Address"
+                    aria-label="mail"
                   />
                 </div>
               </div>
@@ -345,6 +348,7 @@
                     class="contact__input contact__input-3"
                     type="text"
                     placeholder="Phone Number"
+                    aria-label="phone Number"
                   />
                 </div>
                 <div class="col-xl-6">
@@ -374,7 +378,7 @@
                 <div class="col-xl-12">
                   <button
                     class="s-btn s-btn__square s-btn__square-white"
-                    type="submit"
+                    type="submit" aria-label="Submit message"
                   >
                     submit message
                   </button>

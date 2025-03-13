@@ -4,10 +4,10 @@
       <span class="icon flaticon-family"></span>
     </div>
     <div class="services__content-2 transition-3">
-      <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+      <h3><a href="{{ .Permalink }}" aria-label="{{.Title}}">{{ .Title }}</a></h3>
       <p>{{ .Params.description }}</p>
       <div class="p-100">
-        <a href="{{ .Permalink }}" class="link-btn">Read details</a>
+        <a href="{{ .Permalink }}" class="link-btn" aria-label="Read details">Read details</a>
       </div>
     </div>
   </div>

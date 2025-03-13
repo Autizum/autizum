@@ -3,12 +3,12 @@
   <div class="info__area-inner">
     <div class="info__area-wrapper info__area-wrapper-3">
       <div class="info__close-icon text-right">
-        <button class="info-close-btn" aria-label="Close Information"><i class="fal fa-times"></i></button>
+        <button class="info-close-btn" aria-label="Close Information" aria-label="info-close-btn"><i class="fal fa-times"></i></button>
       </div>
       <div class="info__wrapper">
         <div class="info__logo mt-25 mb-30">
           <a href="/"
-            ><img src="/assets/img/logo/logo.png" alt="{{.Site.Data.header.logo_alt}}"
+            ><img src="/assets/img/logo/logo.png" alt="{{.Site.Data.header.logo_alt}}" aria-label="logo"
           /></a>
         </div>
         <div class="info__contact">
@@ -36,7 +36,7 @@
               </div>
               <div class="text">
                 <span
-                  ><a href="{{.Site.Params.website}}" class="__cf_email__"
+                  ><a href="{{.Site.Params.website}}" class="__cf_email__" aria-label="email"
                     >{{.Site.Params.email}}</a
                   ></span
                 >
@@ -54,11 +54,11 @@
       <ul id="mobile-menu-active">
         {{ range .Site.Data.header.nav }}
                   <li class="{{ if .dropdown }}has-dropdown{{ end }}">
-                    <a href="{{ .url }}">{{ .name }}</a>
+                    <a href="{{ .url }}" aria-label="{{ .name }}">{{ .name }}</a>
                     {{ if .dropdown }}
                       <ul class="submenu">
                         {{ range .dropdown }}
-                          <li><a href="{{ .url }}">{{ .name }}</a></li>
+                          <li><a href="{{ .url }}" aria-label="{{ .name }}">{{ .name }}</a></li>
                         {{ end }}
                       </ul>
                     {{ end }}
@@ -67,7 +67,7 @@
                   {{end}}
                 </ul>
       <div class="ml-35">
-        <a href="https://cal.com/florina-david-colar/15min" target="_blank" class="s-btn s-btn__square"
+        <a href="https://cal.com/florina-david-colar/15min" target="_blank" class="s-btn s-btn__square" aria-label="book appointment"
             >{{ .Site.Data.header.appointment }}</a
           >
       </div>

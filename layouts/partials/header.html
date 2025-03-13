@@ -7,7 +7,7 @@
           <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-8">
             <div class="header__top-left">
               <div class="">
-                <a href="{{.Site.Params.website}}"
+                <a href="{{.Site.Params.website}}" aria-label="visit site"
                   ><img
                     src="{{.Site.Data.header.logo_url}}"
                     alt="{{.Site.Data.header.logo_alt}}"
@@ -43,7 +43,7 @@
                 <div class="header__info-text">
                   <span>{{.Site.Data.header.email_text}}</span>
                   <span
-                    ><a href="mailto:{{.Site.Params.website}}" class="__cf_email__"
+                    ><a href="mailto:{{.Site.Params.website}}" class="__cf_email__" aria-label="mail"
                       >{{.Site.Params.email}}</a
                     ></span
                   >
@@ -63,11 +63,11 @@
                 <ul>
                   {{ range .Site.Data.header.nav }}
                   <li class="{{ if .dropdown }}has-dropdown{{ end }}">
-                    <a href="{{ .url }}">{{ .name }}</a>
+                    <a href="{{ .url }}" aria-label="{{ .name }}">{{ .name }}</a>
                     {{ if .dropdown }}
                       <ul class="submenu">
                         {{ range .dropdown }}
-                          <li><a href="{{ .url }}">{{ .name }}</a></li>
+                          <li><a href="{{ .url }}" aria-label="{{ .name }}">{{ .name }}</a></li>
                         {{ end }}
                       </ul>
                     {{ end }}
@@ -78,7 +78,7 @@
               </nav>
             </div>
             <div class="d-md-none">
-              <a href="/"
+              <a href="/" aria-label="logo"
                 ><img src="{{.Site.Data.header.logo_url}}"
                 alt="{{.Site.Data.header.logo_text}}"  style="width:100%"></a
               >
@@ -98,7 +98,7 @@
                 </ul>
               </div>
               <div class="header__btn ml-35 d-none d-lg-block">
-                <a href="https://cal.com/florina-david-colar/15min" target="_blank" class="s-btn s-btn__square"
+                <a href="https://cal.com/florina-david-colar/15min" target="_blank" class="s-btn s-btn__square" aria-label="book an appointment"
                   >{{ .Site.Data.header.appointment }}</a
                 >
               </div>

@@ -23,7 +23,7 @@
                   <div class="team__social-2 social transition-3">
                     <ul>
                       <li>
-                        <a target="_blank" href="{{$person.linkedin}}"><i class="fab fa-linkedin-in"></i></a>
+                        <a target="_blank" href="{{$person.linkedin}}" aria-label="visit linkedin"><i class="fab fa-linkedin-in"></i></a>
                       </li>
                     </ul>
                   </div>
@@ -46,7 +46,7 @@
               </div>
             </div>
           </div>
-          <button class="read-more-btn" id="{{ add $index 1 }}-btn" onclick="toggleReadMore('{{ add $index 1 }}-name', '{{ add $index 1 }}-btn')">Read More</button>
+          <button class="read-more-btn" id="{{ add $index 1 }}-btn" onclick="toggleReadMore('{{ add $index 1 }}-name', '{{ add $index 1 }}-btn')" aria-label="Read more">Read More</button>
         </div>
       </div>
     {{ end }}

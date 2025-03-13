@@ -46,7 +46,7 @@
                   <ul>
                     {{ range (where .Site.Pages "Section" "services") }}
                       <li>
-                        <a href="{{ .Permalink }}">{{ .Title }}</a>
+                        <a href="{{ .Permalink }}" aria-label="{{ .Title}}">{{ .Title }}</a>
                       </li>
                     {{ end }}
                   </ul>
@@ -108,7 +108,7 @@
             <div class="footer__copyright-text">
               <p>
                 Copyright © {{ now.Year }} Designed and Developed by
-                <a href="https://two44software.com/" target="_blank" style="color: #1a73e8; text-decoration: underline;" title="Visit Two44 Software Solutions website">
+                <a href="https://two44software.com/" target="_blank" style="color: #1a73e8; text-decoration: underline;" title="Visit Two44 Software Solutions website" aria-label="visit Twoo44 software solutions">
                   Two44 Software Solutions</a
                 >.
               </p>
@@ -116,7 +116,7 @@
           </div>
           <div class="col-xl-6 col-lg-6 col-md-6">
             <div class="footer__policy">
-              <a href="/terms-and-conditions">Terms & Conditions</a>
+              <a href="/terms-and-conditions" aria-label="our terms-and-conditions">Terms & Conditions</a>
             </div>
           </div>
         </div>
