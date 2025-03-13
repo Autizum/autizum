@@ -13,7 +13,7 @@
             <div class="page__title-breadcrumb">
               <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
-                  <li class="breadcrumb-item"><a href="/">Home</a></li>
+                  <li class="breadcrumb-item"><a href="/" aria-label="Get started">Home</a></li>
                   <li class="breadcrumb-item active" aria-current="page">
                     About me
                   </li>
@@ -34,7 +34,7 @@
       <div class="row">
         <div class="col-xl-5 col-lg-5">
           <div class="ml-35">
-            <a href="https://cal.com/florina-david-colar/15min" target="_blank" class="s-btn s-btn__square-2"
+            <a href="https://cal.com/florina-david-colar/15min" target="_blank" class="s-btn s-btn__square-2" aria-label="Get started"
                 >{{ .Site.Data.header.appointment }}</a
               >
           </div>
@@ -48,11 +48,11 @@
           >
             <h1>{{.Params.bioArea.name}}</h1>
             <h3 class="h31">{{.Params.bioArea.occupation}}</h3>
-            <h3 class="h31">{{.Params.bioArea.title}}</h3>
-            <p class="pt-20">{{.Params.bioArea.aboutYou}}</p>
-            <p>{{.Params.bioArea.aboutYou1}}</p>
-            <p>{{.Params.bioArea.aboutYou2}}</p>
-            <p>{{.Params.bioArea.aboutYou3}}</p>
+            <h3 class="h31">{{.Params.bioArea.title | markdownify}}</h3>
+            <p class="pt-20">{{.Params.bioArea.aboutYou | markdownify}}</p>
+            <p>{{.Params.bioArea.aboutYou1 | markdownify}}</p>
+            <p>{{.Params.bioArea.aboutYou2 | markdownify}}</p>
+            <p>{{.Params.bioArea.aboutYou3 | markdownify}}</p>
           </div>
         </div>
         <div class="container-fluid">
@@ -70,7 +70,7 @@
         >
           <div class="sychologist__signature d-block d-sm-flex">
             <div class="sychologist__btn mb-30 mr-30">
-              <a href="https://cal.com/florina-david-colar/15min" target="_blank" class="s-btn s-btn__square-2"
+              <a href="https://cal.com/florina-david-colar/15min" target="_blank" class="s-btn s-btn__square-2" aria-label="Get started"
                   >{{ .Site.Data.header.appointment }}</a
                 >
             </div>

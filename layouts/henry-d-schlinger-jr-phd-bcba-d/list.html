@@ -1,0 +1,69 @@
+{{ define "main" }}
+<main>
+  <!-- Page title area start -->
+  <section
+    class="page__title p-relative pt-200 pb-200"
+    data-background="/assets/img/page-title/page-title-2.jpg"
+  >
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-12 col-lg-12 col-md-12">
+          <div class="page__title-inner text-center">
+            <div class="page__title-breadcrumb">
+              <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="/" aria-label="home">Home</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">
+                    About Dr. Henry D. Schlinger Jr.
+                  </li>
+                </ol>
+              </nav>
+              <h1>Dr. Henry D. Schlinger Jr.</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Page title area end -->
+
+  <!-- Profile area start -->
+  <section class="profile__area pt-120 p-relative">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-5 col-lg-5">
+          <div class="profile__person">
+            <img src="{{.Params.henryArea.image}}" alt="Dr. Henry D. Schlinger Jr." />
+          </div>
+        </div>
+        <div class="col-xl-7 col-lg-7">
+          <div
+            class="sychologist__content sychologist__content-2 p-relative"
+          >
+            <h1>{{.Params.henryArea.name}}</h1>
+            <h3 class="h31">{{.Params.henryArea.occupation}}</h3>
+            <h3 class="h31">{{.Params.henryArea.title}}</h3>
+            <p class="pt-20">{{.Params.henryArea.aboutYou}}</p>
+            <p>{{.Params.henryArea.aboutYou1}}</p>
+            <p>{{.Params.henryArea.aboutYou2}}</p>
+            <p>{{.Params.henryArea.aboutYou3}}</p>
+            <style>
+              a.internal-link {
+                color: #532c96;
+                text-decoration: none;
+              }
+            </style>
+          </div>
+        </div>
+        <div class="col-12 text-center mt-4">
+          <div class="contact__btn">
+            <a href="https://cal.com/florina-david-colar/15min" target="_blank" class="s-btn s-btn__square-2" aria-label="book an appointment">Book an Appointment</a>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Profile area end -->
+</main>
+{{ end }}
