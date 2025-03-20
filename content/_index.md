@@ -1,7 +1,7 @@
 ---
 slider1:
   span: Brighter Futures Start Here
-  text: Join us in creating a brighter future for your child, one step at a time
+  text: Applied Behavior Analysis (ABA) Therapy for Autism
   image: assets/img/slider/slider-02.jpg
 slider2:
   span: Unlock Your Child's Potential

@@ -7,7 +7,6 @@ draft: false
 ---
 
 
-## Introduction
 
 Did you know that many people are diagnosed with autism in adulthood? While autism is often detected in childhood, many high-functioning autistic adults go undiagnosed for years. At Autizum, we aim to raise awareness about adult autism, its challenges, and available support systems.
 

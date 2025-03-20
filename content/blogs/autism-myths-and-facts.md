@@ -6,7 +6,6 @@ image: "/assets/img/blog/blog-big-1.jpg"
 draft: false
 ---
 
-## Introduction
 
 Autism Spectrum Disorder (ASD) is one of the most misunderstood conditions in the world. Despite increased awareness, many **autism myths** persist, leading to stigma and misinformation. At **Autizum**, we are dedicated to spreading **autism awareness** and providing accurate information to help society understand and support autistic individuals.
 

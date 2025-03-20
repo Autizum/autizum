@@ -7,7 +7,6 @@ draft: false
 ---
 
 
-## Introduction
 
 Did you know that early intervention can significantly improve speech, behavior, and social skills in children with Autism Spectrum Disorder (ASD)? At Autizum, we emphasize the importance of early autism diagnosis and therapies to help children develop essential life skills.
 

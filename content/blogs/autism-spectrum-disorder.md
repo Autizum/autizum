@@ -6,7 +6,6 @@ image: "/assets/img/blog/blog-big-3.jpg"
 draft: false
 ---
 
-## Introduction
 
 Autism Spectrum Disorder (ASD) is a neurodevelopmental condition that affects millions of people worldwide. With rising autism awareness, it’s crucial to understand the early signs of autism, its causes, and how it is diagnosed. At Autizum, we believe in providing accurate information and support to help individuals and families navigate life with autism.
 
