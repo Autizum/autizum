@@ -63,6 +63,10 @@ body {
   max-width: 100%;
 }
 
+a {
+  color: #ff7f00;
+}
+
 a,
 .btn,
 button,
@@ -103,7 +107,6 @@ a:hover {
 
 a,
 button {
-  color: inherit;
   outline: none;
   border: none;
 }
@@ -1965,7 +1968,10 @@ p {
 .services__item-2:hover .services__icon span::after {
   background-color: rgba(248, 166, 131, 0.5);
 }
-.services__item-2:hover .services__content-2 h3 {
+.services__content-2 h3 {
+  color: #ff7f00;
+}
+.services__item-2:hover h3 {
   color: #ffffff;
 }
 .services__item-2:hover .services__content-2 p {
