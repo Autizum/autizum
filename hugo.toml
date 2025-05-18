@@ -6,13 +6,13 @@ params.website = 'https://autizum.com/'
 params.experience = '15'
 params.company = 'Autizum'
 params.email = 'intake@autizum.com'
-params.address = '5448 Apex Peakway #300, Apex, NC 27502 USA'
+params.address = '1031 Pemberton Hill Rd Suite 102, Apex, NC 27502'
 params.keywords = 'best bcba coach, bcba coach near me, Supplements for autism, Autism environmental factors, Early intervention autism, Parent counseling, Verbal behavior, Autism education, Autism occupational therapy, Autism resources for parents, Autism specialists near me, Occupational therapy autism, Autism activities, Autism and gut health, Autism community, Autism emotional regulation, Autism forums, Autism events, Autism learning, In-home ABA therapy near me, Autism apps for adults, Autism tools, Best schools for autism, Autism counseling, Autism treatment centers, Parenting a child with autism, Autism and language development, Autism inclusion, Raising a child with autism, Autism and learning disabilities, Autism in preschoolers, Signs of autism in boys, Best therapies for autism, How to support someone with autism, Autism education resources, Autism sensory tools, Autism tips, Natural treatments for autism, Autism coaching, Autism learning tools, How to teach an autistic child to read, Apps for autism communication, Autism tips for parents, Educational apps for autism, Online autism support groups, Teaching autistic students, Autism counseling, Autism inclusion, Autism tips, Autism coaching, ABA clinic administrative efficiency, Gateway behavior, ABA clinic efficiency tools, Autism testing for adults Austin, Behavioral observation of students in schools, Autism therapy at home, Early signs of autism in toddlers, Speech therapy for autism, How to potty train an autistic child, Benefits of ABA therapy, How to calm an autistic child, Inclusive education for autism.'
 params.mobile = '(919)-910-4058'
 
 [sitemap]
-  filename = "sitemap.xml"  
-  changefreq = "daily"        
+  filename = "sitemap.xml"
+  changefreq = "daily"
 
 [minify]
   disableXML = true

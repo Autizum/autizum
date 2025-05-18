@@ -4,6 +4,7 @@ working_title: "Fax No:"
 working_text: "(919)-910-0792"
 call_text: "Call us:"
 email_text: "Email us:"
+address_text: "Address:"
 appointment: "Book an appointment"
 nav:
   - name: "Home"
@@ -24,12 +25,12 @@ nav:
         url: "/clinical"
       - name: "Dr. Hank Schlinger"
         url: "/hank-d-schlinger-jr-phd-bcba-d"
-  
-  
+
+
 
   - name: "Services"
     url: "/services"
-    
+
     dropdown:
       - name: "ABA Therapy"
         url: "/services/aba-therapy/"
